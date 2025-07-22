@@ -3,7 +3,7 @@ import pandas as pd
 import re
 import os
 
-def vectorNorm(vector): # compress vectors with Euclidian norm for single value
+def vectorNorm(vector): # compress matrix of vectors with Euclidian norm ("magnitude") for single value
     return np.linalg.norm(vector, axis=1).reshape(-1, 1)
 
 def onehot(arr):
@@ -51,6 +51,9 @@ def updateTrain(newData, outPath="./data/train.csv"):
         raise ValueError("Input must be either a file path (str) or an array-like object.")
     
     frame.to_csv(outPath, mode='a', header=False, index=False)
+
+def getTrain(path="./data/train.csv"):
+    return pd.read_csv(path).values
 
 def preprocess(train):
     name = train[:,0].reshape(-1,1)
