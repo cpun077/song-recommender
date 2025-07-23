@@ -1,32 +1,33 @@
 import numpy as np
-import preprocess
-
-raw_test = np.array([
-    ["Pure Water", "Migos", "Rap", 2019, 202, "Uh (Woo, woo), no Master P (Ayy) Ten bad bitches and they after me (Bad)"],
-    ["Falling", "Chase Atlantic", "Pop", 2018, 99, "And you keep on falling, baby, figure it out Just drive slow, straightforward, or I'm walking around"],
-    ["Kids", "MGMT", "Rock", 2005, 122, "Control yourself, take only what you need from it A family of trees wanted to be haunted"],
-    ["Maria", "Justin Bieber", "Pop", 2012, 111, "Maria, why you wanna do me like that? That ain't my baby (No), that ain't my girl"],
-    ["Alison", "Slowdive", "Rock", 1993, 102, "'Alison,' I said, 'We're sinking' There's nothing here but that's okay"],
-])
+from src import preprocess
 
 def cosSim(song1, song2):
-    print("cosine similarity between ", song1[0], " and ", song2[0], " is: ")
     song1 = song1[2:].astype(np.float32)
     song2 = song2[2:].astype(np.float32)
-    print(np.dot(song1, song2) / (np.linalg.norm(song1)*np.linalg.norm(song2)))
     return np.dot(song1, song2) / (np.linalg.norm(song1)*np.linalg.norm(song2))
 
-def knn(song, k=-1):
-    if isinstance(k, int):
+def knn(song, k=-1, n=1):
+    '''
+    Finds similar songs from training set to the provided song.
+
+    song : input song array
+    k : number of nearest neighbors to compare song to
+    n : number of similar songs to be returned in an array
+    '''
+    if isinstance(k, int) and isinstance(n, int):
         train = preprocess.getTrain()
-        if k >= 1 and k <= len(train):
-            train = train[:k]
-# return song title and artist back
+        if k < 1 or k > len(train):
+            k = len(train)
+        if n < 1 or k > len(train):
+            n = k
+        train = train[:k]
+        
         return sorted(np.array(
-            [cosSim(song, trainSong) for trainSong in train]
-        ))[-1]
+            [
+                [trainSong[0], trainSong[1], cosSim(song, trainSong)] for trainSong in train
+            ]
+        ),
+        key=lambda x: x[2],
+        reverse=True)[:n]
     else:
-        raise ValueError("Input must be an integer.")
-    
-test = preprocess.preprocess(raw_test)
-print("cosine similarity:", knn(test[0], 2))
+        raise ValueError("k nearest neighbors and n similar songs must be integers.")
