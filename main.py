@@ -23,6 +23,9 @@ def main():
     # data = preprocess.preprocess(raw_train)
     # preprocess.newTrain(data)
 
+    # csv merging
+    # preprocess.updateTrain("./data/raw_train copy.csv", "./data/raw_train.csv")
+
     test = preprocess.preprocess(raw_test)
     results = np.array(
         [[testsong[0], knn.knn(testsong)[0][0]] for testsong in test]

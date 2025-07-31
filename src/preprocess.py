@@ -3,6 +3,8 @@ import pandas as pd
 import re
 import os
 
+headers = ['title','artist','genre','year','bpm','lyrics']
+
 def vectorNorm(vector): # compress matrix of vectors with Euclidian norm ("magnitude") for single value
     return np.linalg.norm(vector, axis=1).reshape(-1, 1)
 
@@ -39,16 +41,20 @@ def bow(arr):
 
 def newTrain(inArr, outPath="./data/train.csv"):
     frame = pd.DataFrame(inArr)
-    frame.columns = ['title','artist','genre','year','bpm','lyrics']
+    frame.columns = headers
     frame.to_csv(outPath, index=False)
 
 def updateTrain(newData, outPath="./data/train.csv"):
     if isinstance(newData, str) and os.path.isfile(newData):
         frame = pd.read_csv(newData)
+        newDataHeaders = np.array(frame.columns)
+        if not all(newDataHeaders == headers): # doesn't check if header is a valid song
+            frame.to_csv(outPath, mode='a', header=True, index=False)
+            return
     elif isinstance(newData, (np.ndarray, list)):
         frame = pd.DataFrame(newData)
     else:
-        raise ValueError("Input must be either a file path (str) or an array-like object.")
+        raise ValueError("Input must be either a valid file path (str) or an array-like object.")
     
     frame.to_csv(outPath, mode='a', header=False, index=False)
 
