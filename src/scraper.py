@@ -24,17 +24,36 @@ genius = Genius(token, sleep_time=1, timeout=10, retries=3, remove_section_heade
 options = Options()
 options.add_argument('--user-agent=SongRecommender/1.0')
 
-def findLyrics(artist, title):
-    time.sleep(2)
-    song = genius.search_song(title=title, artist=artist)
-    return song.lyrics
-
 def cleanLyrics(text):
+    text = re.sub(r'\[.*?\]', '', text, flags=re.DOTALL)
     text = text.replace('\n', ' ').replace('-', ' ').replace('—', ' ')
     text = re.sub(r"[^a-zA-Z ]", "", text.lower())
     return text
 
-import re
+def findLyrics(artist, title):
+    time.sleep(2)
+    song = genius.search_song(title=title, artist=artist)
+    if song:
+        return cleanLyrics(song.lyrics)
+
+    if "/" in title:
+        parts = [part.strip() for part in title.split(" / ")]
+        songlist = []
+        for part in parts:
+            time.sleep(1)
+            songEl = genius.search_song(title=part, artist=artist)
+            if songEl:
+                songlist.append(songEl.lyrics)
+        return cleanLyrics('\n'.join(songlist))
+        
+    return None
+
+# drakey = pd.read_csv('./data/drake.csv')
+# titles = drakey['title']
+# lyrics = [findLyrics('Drake', title) for title in titles]
+# drakey['lyrics'] = lyrics
+# drakey.to_csv('./data/drake.csv', index=False)
+
 
 def cleanTitle(title):
     title = re.sub(r"[’']", "-", title)
@@ -85,11 +104,11 @@ def findBPM(artist, title):
             result.click()
             time.sleep(2)
             container = driver.find_element(By.XPATH, "(//dd[@class='text-card-foreground mt-1 text-3xl font-semibold'])[3]")
+            driver.quit()
             if container:
                 bpm_text = container.text.strip()
                 if bpm_text.isdigit():
                     return int(bpm_text)
-        driver.quit()
 
     print("BPM not found.")
     return None
@@ -98,8 +117,13 @@ def findBPM(artist, title):
 # bpms = [findBPM(artist.split(';')[0], title) for artist, title in zip(data['artist'], data['title'])]
 # print(bpms)
 
-def browse_artist_releases(artist : str, limit : int, offset : int):
-    songs = []
+def browse_artist_releases(artist : str, limit : int, offset : int, filepath: str = './data/artist_data.csv'):
+    data = pd.DataFrame(columns=['title', 'artist', 'genre', 'year', 'album', 'bpm', 'lyrics'])
+    if os.path.isfile(filepath) and all(pd.read_csv(filepath).columns == data.columns):
+        pass
+    else:
+        data.to_csv(filepath, index=False)
+    
     artist_query = mb.search_artists(artist)
     artist_id = artist_query['artist-list'][0]['id']
     release_groups = mb.browse_release_groups(
@@ -119,8 +143,20 @@ def browse_artist_releases(artist : str, limit : int, offset : int):
         # concat as string not array to flatten
         genres = ";".join(tag['name'] for tag in tags)
 
-        release_id = mb.get_release_group_by_id(group['id'], includes=['releases'])[
-            'release-group']['release-list'][0]['id'] # last release maybe?
+        releases = mb.get_release_group_by_id(group['id'], includes=['releases'])[
+            'release-group']['release-list']
+        first_id = releases[0]['id']
+        release_id = first_id
+        for release in releases:
+            if 'country' in release and release['country'] == 'XW':
+                release_id = release['id']
+                break
+        if release_id == first_id:
+            for release in releases:
+                if 'country' in release and release['country'] == 'US':
+                    release_id = release['id']
+                    break
+
         recordings = mb.get_release_by_id(release_id, includes=['artists', 'recordings'])[
             'release']['medium-list']
 
@@ -136,18 +172,16 @@ def browse_artist_releases(artist : str, limit : int, offset : int):
                 for song in tracklist
             ])
 
-        lyrics = [cleanLyrics(findLyrics(artist, title)) for title in titles]
-        bpms = [findBPM(artist, title) for title in titles]
-        songs.extend([
+        bpms = [findBPM(artist, title) for title in titles] # dont wanna waste lyric requests if bpm fails
+        lyrics = [findLyrics(artist, title) for title in titles]
+        album = pd.DataFrame([
             [title, artist, genres, date[:4], album_title, bpm, lyric]
             for title, artist, bpm, lyric in zip(titles, artists, bpms, lyrics)
-        ])
+        ], columns=data.columns)
+        album.to_csv(filepath, mode='a', header=False, index=False)
+        print(album)
 
-    return pd.DataFrame(songs, columns=['title', 'artist', 'genre', 'year', 'album', 'bpm', 'lyrics'])
-
-findings = browse_artist_releases('Drake', 10, 0) 
-print(findings)
-findings.to_csv('./data/drake.csv', index=False)
+# browse_artist_releases('Drake', 5, 5, './data/drake.csv')
 
 # Title Artist Genre Year BPM Lyrics
 
