@@ -11,8 +11,17 @@ import requests
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import (
+    ElementClickInterceptedException, 
+    ElementNotInteractableException, 
+    TimeoutException, 
+    WebDriverException, 
+    StaleElementReferenceException
+)
+from selenium.webdriver.common.keys import Keys
 import time
 
 mb.set_useragent("SongRecommender", "1.0")
@@ -21,8 +30,12 @@ load_dotenv()
 token = os.getenv('GENIUSTOKEN')
 genius = Genius(token, sleep_time=1, timeout=10, retries=3, remove_section_headers=True)
 
+useragent = os.getenv('USERAGENT')
+
 options = Options()
 options.add_argument('--user-agent=SongRecommender/1.0')
+options.add_argument('--incognito')
+options.page_load_strategy = 'normal'
 
 def cleanLyrics(text):
     text = re.sub(r'\[.*?\]', '', text, flags=re.DOTALL)
@@ -34,6 +47,7 @@ def findLyrics(artist, title):
     time.sleep(2)
     song = genius.search_song(title=title, artist=artist)
     if song:
+        # print(song.lyrics)
         return cleanLyrics(song.lyrics)
 
     if "/" in title:
@@ -54,7 +68,6 @@ def findLyrics(artist, title):
 # drakey['lyrics'] = lyrics
 # drakey.to_csv('./data/drake.csv', index=False)
 
-
 def cleanTitle(title):
     title = re.sub(r"[’']", "-", title)
     title = re.sub(r"[\"&|[\]().]", "", title)
@@ -63,15 +76,69 @@ def cleanTitle(title):
 
     return title.lower()
 
-def findBPM(artist, title):
-    titleStr = cleanTitle(title)
-    url = f'https://songbpm.com/@{artist}/{titleStr}'
+def retryClick(element:str, driver:webdriver.Chrome, retries:int=3):
+    for attempt in range(retries):
+        try:
+            wait = WebDriverWait(driver, 5)
+            submit = wait.until(EC.element_to_be_clickable((
+                By.CSS_SELECTOR,
+                element
+            )))
+            driver.execute_script("arguments[0].scrollIntoView();", submit)
+            try:
+                print('click() initiated')
+                submit.click()
+            except (ElementClickInterceptedException, ElementNotInteractableException):
+                print('script initiated')
+                driver.execute_script("arguments[0].dispatchEvent(new MouseEvent('click', {bubbles:true}))", submit)
 
+            print('click succeeded')
+            break
+        except (TimeoutException, WebDriverException, StaleElementReferenceException) as e:
+            print(f'Attempt {attempt + 1} failed: {e}')
+            time.sleep(1)
+
+def crawl(artist, title):
+    driver = webdriver.Chrome()
+    wait = WebDriverWait(driver, 5)
+
+    driver.get('https://songbpm.com')
+    searchbar = wait.until(EC.element_to_be_clickable((By.TAG_NAME, "input")))
+    searchbar.clear()
+    old_url = driver.current_url
+    searchbar.send_keys(f'{artist} {title}' + Keys.ENTER)
+    # time.sleep(0.5)
+    # print('return')
+    # searchbar.send_keys(Keys.ENTER)
+    wait.until(EC.url_changes(old_url))
+    print('search results!')
+
+    # retryClick("button[type='submit']", driver)
+
+    retryClick("a[class='hover:bg-foreground/5 flex flex-col items-start justify-start space-y-2 p-3 sm:flex-row sm:items-center sm:p-6']", driver)
+    
+    # driver.execute_script("arguments[0].scrollIntoView(true);", result)
+    # time.sleep(1)
+    # driver.execute_script("arguments[0].click();", result)
+
+    text = wait.until(EC.presence_of_element_located((
+        By.XPATH,
+        "(//dd[@class='text-card-foreground mt-1 text-3xl font-semibold'])[3]"
+    ))).text.strip()
+
+    print('BPM found')
+
+    driver.quit()
+    if text.isdigit():
+        return int(text)
+    return None
+
+def songbpm(url:str):
     try:
         response = requests.get(url, timeout=1)
         response.raise_for_status()
 
-        soup = BeautifulSoup(response.text, "html.parser")
+        soup = BeautifulSoup(response.text, 'html.parser')
         container = soup.find(
             'dl', 'mt-5 grid grid-cols-1 gap-5 sm:grid-cols-3'
         ).find_all(
@@ -87,31 +154,44 @@ def findBPM(artist, title):
             if bpm_text.isdigit():
                 return int(bpm_text)
     except requests.RequestException as e:
-        print(e)
-        print('Attempting crawling...')
-        driver = webdriver.Chrome()
-        driver.get('https://songbpm.com')
-        time.sleep(2)
-        search = driver.find_element(by=By.NAME, value='query')
-        search.send_keys(f'{artist} {title}')
-        search.submit()
-        time.sleep(3)
-        result = driver.find_element(
-            by=By.CSS_SELECTOR, 
-            value="a[class='hover:bg-foreground/5 flex flex-col items-start justify-start space-y-2 p-3 sm:flex-row sm:items-center sm:p-6']"
-        )
-        if result:
-            result.click()
-            time.sleep(2)
-            container = driver.find_element(By.XPATH, "(//dd[@class='text-card-foreground mt-1 text-3xl font-semibold'])[3]")
-            driver.quit()
-            if container:
-                bpm_text = container.text.strip()
-                if bpm_text.isdigit():
-                    return int(bpm_text)
+        return None
 
-    print("BPM not found.")
-    return None
+def findBPM(artist:str, title:str):
+    time.sleep(2)
+    titleStr = cleanTitle(title)
+    url = f'https://songbpm.com/@{artist}/{titleStr}'
+
+    bpm = songbpm(url)
+    if not bpm:
+        # try:
+        #     searchstr = f'{artist} {title} site:songbpm.com'
+        #     googleurl = 'https://www.google.com/search'
+        #     headers = {
+        #         'Accept' : '*/*',
+        #         'Accept-Language': 'en-US,en;q=0.5',
+        #         'User-Agent': useragent,
+        #     }
+        #     parameters = {'q': searchstr}
+        #     response = requests.get(googleurl, headers = headers, params = parameters)
+        #     response.raise_for_status()
+        #     soup = BeautifulSoup(response.text, 'html.parser')
+        #     print(soup)
+        #     atags = soup.find_all(href=True)
+        #     links = []
+        #     for a in atags:
+        #         link = a.get('href')
+        #         if f'https://songbpm.com/@{artist.lower()}' in link:
+        #             links.append(link)
+        #     print(links)
+        #     firstlink = links[0]
+        #     bpm = songbpm(firstlink)
+        #     if bpm:
+        #         return bpm
+        # except requests.RequestException as e:
+        #     print(e)
+            return crawl(artist, title)
+    else:
+        return bpm
 
 # data = pd.read_csv('./data/drake.csv')
 # bpms = [findBPM(artist.split(';')[0], title) for artist, title in zip(data['artist'], data['title'])]
@@ -181,7 +261,7 @@ def browse_artist_releases(artist : str, limit : int, offset : int, filepath: st
         album.to_csv(filepath, mode='a', header=False, index=False)
         print(album)
 
-# browse_artist_releases('Drake', 5, 5, './data/drake.csv')
+# browse_artist_releases('Drake', 4, 6, './data/drake.csv')
 
 # Title Artist Genre Year BPM Lyrics
 
