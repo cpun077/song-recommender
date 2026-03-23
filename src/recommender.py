@@ -32,21 +32,34 @@ def preprocess(df):
     audio_scaled = scaler.fit_transform(audio)
     return (audio_scaled, df.columns, lyrics_scaled, vectorizer.get_feature_names_out().tolist())
 
-def recommend(df, song, n=5):
+def recommend(df, song, n=5, precomputed=None):
     try:
         song_idx = df[df['track_name'] == song].index[0]
     except IndexError:
         return "Song not found in database."
 
-    audio_matrix, audio_col, lyrics_matrix, lyrics_col = preprocess(df)
+    if precomputed is None:
+        audio_matrix, audio_col, lyrics_matrix, lyrics_col = preprocess(df)
+    else:
+        audio_matrix, audio_col, lyrics_matrix, lyrics_col = precomputed
     song_audio, song_lyrics = audio_matrix[song_idx], lyrics_matrix[song_idx]
+
+
+    # track1 = df[df['track_name'] == 'Teenage Dream'][audio_col].values.flatten()
+    # track2 = df[df['track_name'] == 'Last Friday Night (T.G.I.F.)'][audio_col].values.flatten()
+    # test_df = pd.DataFrame(data=[track1, track2], columns=audio_col)
+    # print(test_df)
 
     audio_similarity = cosine_similarity(audio_matrix, song_audio.reshape(1,-1))
     lyrics_similarity = cosine_similarity(lyrics_matrix, song_lyrics.reshape(1,-1))
     sim_matrix = 0.9 * audio_similarity + 0.1 * lyrics_similarity
 
     top_n_idx = sim_matrix.flatten().argsort()[::-1][1:n+1] # reverse sort idxs, skip queried song
+
     return df.iloc[top_n_idx][['track_name', 'artist_names']]
 
-df = pd.read_csv('./data/top-10k-spotify-songs-2025-07-detailed.csv')
-print(recommend(df, 'Firework', 10))
+if __name__ == '__main__':
+    df = pd.read_csv('./data/top-10k-spotify-songs-2025-07-detailed.csv')
+    query = input('Enter the song you would like to find similar tracks to: ')
+    count = input('Enter how many similar tracks to recommend: ')
+    print(recommend(df, query, int(count)))
