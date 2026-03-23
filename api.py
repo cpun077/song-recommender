@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import pandas as pd
 from contextlib import asynccontextmanager
 
-from src.recommender import preprocess, recommend
+from backend.recommender import preprocess, recommend
 
 # Global variables to store the data
 ml_models = {}
@@ -12,7 +12,7 @@ ml_models = {}
 async def lifespan(app: FastAPI):
     # Load data ONCE so it's not processed on every request
     print("Loading datasets and precomputing TF-IDF vectors...")
-    df = pd.read_csv('./data/top-10k-spotify-songs-2025-07-detailed.csv')
+    df = pd.read_csv('./backend/data/top-10k-spotify-songs-2025-07-detailed.csv')
     precomputed = preprocess(df.copy())
     
     ml_models["df"] = df
