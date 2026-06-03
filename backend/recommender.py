@@ -1,65 +1,123 @@
+import os
 import numpy as np
 import pandas as pd
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.preprocessing import MinMaxScaler
+from sklearn.preprocessing import StandardScaler
 from sklearn.metrics.pairwise import cosine_similarity
+from sentence_transformers import SentenceTransformer
+
+def embed_song(text, model):
+    words = text.split()
+
+    chunks = [
+        " ".join(words[i:i+200])
+        for i in range(0, len(words), 200)
+    ]
+
+    chunk_embeddings = model.encode(
+        chunks,
+        normalize_embeddings=True
+    )
+    mean_embedding = np.mean(chunk_embeddings, axis=0)
+
+    return mean_embedding / np.linalg.norm(mean_embedding)
 
 def preprocess(df):
-    # drop unnecessary col and rows w/ missing vals
-    df = df.drop(columns=[
-        'rank', 'track_name', 'artist_names', 'artist_ids', 'album_name', 'album_id', \
-        'popularity', 'explicit', 'release_date', 'album_type', 'isrc', 'copies', \
-        'total_artist_followers', 'avg_artist_popularity', 'artist_genres', 'main_genres'\
-    ]).dropna()
+    # drop unused features and tracks w/ missing vals
+    df = (
+        df.drop(columns=[
+            'rank', 'track_name', 'artist_names', 'artist_ids', 'album_name', 'album_id',
+            'popularity', 'explicit', 'release_date', 'album_type', 'isrc', 'copies',
+            'total_artist_followers', 'avg_artist_popularity', 'artist_genres', 'main_genres',
+            'mode', 'duration', 'duration_ms', 'time_signature', 'key', 'liveness',
+        ]) # key and liveness misleading
+        .dropna()
+        .reset_index(drop=True) # correct indices to reflect dropped rows
+    )
+    tracklist = df['track_id']
 
-    # convert duration and tokenize lyrics
-    df['duration'] = pd.to_timedelta('00:' + df['duration']).dt.total_seconds().astype(int)
-    df['lyrics'] = df['lyrics'] \
-    .str.lower() \
-    .str.replace(r'[\r\n]+', ' ', regex=True) \
-    .str.replace(r'\[.*?\]', '', regex=True) \
-    .str.replace(r'[^A-Za-z\d\s]', '', regex=True) \
-    .str.replace(r'\s+', ' ', regex=True) \
-    .str.strip()
+    # tokenize lyrics
+    df['lyrics'] = (
+        df['lyrics']
+        .str.lower()
+        .str.replace(r'[\r\n]+', ' ', regex=True)
+        .str.replace(r'\[.*?\]', '', regex=True)
+        .str.replace(r'\s+', ' ', regex=True)
+        .str.strip()
+    )
+    # convert key to cyclical features
+    # df['key_sin'] = np.sin(df['key']/12 * 2*np.pi)
+    # df['key_cos'] = np.cos(df['key']/12 * 2*np.pi)
+    # df = df.drop(columns=['key'])
+
+    if os.path.exists("lyrics_embeddings.npy"):
+        lyrics = np.load("lyrics_embeddings.npy")
+    else:
+        model = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')
+        lyrics = np.vstack([
+            embed_song(text, model)
+            for text in df["lyrics"]
+        ])
+        np.save("lyrics_embeddings.npy", lyrics)
     
-    vectorizer = TfidfVectorizer(max_features=5000, stop_words='english', max_df=0.8)
-    lyrics = vectorizer.fit_transform(df['lyrics']).toarray()
     df = df.drop(columns=['lyrics', 'track_id'])
     audio = df.values
 
-    scaler = MinMaxScaler()
-    lyrics_scaled = scaler.fit_transform(lyrics)
-    audio_scaled = scaler.fit_transform(audio)
-    return (audio_scaled, df.columns, lyrics_scaled, vectorizer.get_feature_names_out().tolist())
+    scaler = StandardScaler()
+    audio = scaler.fit_transform(audio)
+
+    return (tracklist, audio, df.columns, lyrics, lyrics.dtype.names)
 
 def recommend(df, song, n=5, precomputed=None):
+    if precomputed is None:
+        tracklist, audio_matrix, audio_col, lyrics_matrix, lyrics_col = preprocess(df)
+    else:
+        tracklist, audio_matrix, audio_col, lyrics_matrix, lyrics_col = precomputed
+
     try:
-        song_idx = df[df['track_name'] == song].index[0]
+        song_idx = tracklist[tracklist == song].index[0]
     except IndexError:
         return "Song not found in database."
 
-    if precomputed is None:
-        audio_matrix, audio_col, lyrics_matrix, lyrics_col = preprocess(df)
-    else:
-        audio_matrix, audio_col, lyrics_matrix, lyrics_col = precomputed
     song_audio, song_lyrics = audio_matrix[song_idx], lyrics_matrix[song_idx]
 
+    audio_sim = cosine_similarity(audio_matrix, song_audio.reshape(1,-1)).flatten()
+    lyrics_sim = cosine_similarity(lyrics_matrix, song_lyrics.reshape(1,-1)).flatten()
 
-    # track1 = df[df['track_name'] == 'Teenage Dream'][audio_col].values.flatten()
-    # track2 = df[df['track_name'] == 'Last Friday Night (T.G.I.F.)'][audio_col].values.flatten()
-    # test_df = pd.DataFrame(data=[track1, track2], columns=audio_col)
-    # print(test_df)
+    audio_rank = np.argsort(np.argsort(-audio_sim))
+    lyrics_rank = np.argsort(np.argsort(-lyrics_sim))
 
-    audio_similarity = cosine_similarity(audio_matrix, song_audio.reshape(1,-1))
-    lyrics_similarity = cosine_similarity(lyrics_matrix, song_lyrics.reshape(1,-1))
-    sim_matrix = 0.9 * audio_similarity + 0.1 * lyrics_similarity
+    combined_rank = (
+        0.8 * audio_rank + 0.2 * lyrics_rank
+    )
+    sorted_all_idx = np.argsort(combined_rank)
+    top_n_idx = sorted_all_idx[1:n+1]
+    top_n_ids = tracklist.iloc[top_n_idx]
+    top_n_recs = df[df['track_id'].isin(top_n_ids)][['track_name', 'artist_names']]
+    
+    # DEBUGGING TEENAGE DREAM / LAST FRIDAY NIGHT (TGIF)
+    target_song = '3avYqdwHKEq8beXbeWCKqJ'
+    target_idx = tracklist[tracklist == target_song].index[0]
+    target_rank = np.where(sorted_all_idx == target_idx)[0][0]
+    print(f"\n--- Debug: {target_song} ---")
+    print(f"Rank: {target_rank}, Audio Similarity: {audio_sim[target_idx]:.5f}, Lyrics Similarity: {lyrics_sim[target_idx]:.5f}\n")
 
-    top_n_idx = sim_matrix.flatten().argsort()[::-1][1:n+1] # reverse sort idxs, skip queried song
+    top_n_audio = [audio_matrix[idx] for idx in top_n_idx]
+    print(f"Audio Data ({song}, {target_song}, Top {n})")
+    print(pd.DataFrame(data=np.vstack((audio_matrix[song_idx], audio_matrix[target_idx])), columns=audio_col))
+    print(pd.DataFrame(data=top_n_audio, columns=audio_col))
+    # top_n_lyrics = [lyrics_matrix[idx] for idx in top_n_idx]
+    # print(f"Lyrics Data ({song}, {target_song}, Top {n})")
+    # print(pd.DataFrame(data=np.vstack((lyrics_matrix[song_idx], lyrics_matrix[target_idx], top_n_lyrics)), columns=lyrics_col))
 
-    return df.iloc[top_n_idx][['track_name', 'artist_names']]
+    print(audio_matrix[tracklist[tracklist == '3hcivoswCVR8LZkHR8MYA5'].index[0]])
+
+    return top_n_recs
 
 if __name__ == '__main__':
-    df = pd.read_csv('./data/top-10k-spotify-songs-2025-07-detailed.csv')
-    query = input('Enter the song you would like to find similar tracks to: ')
-    count = input('Enter how many similar tracks to recommend: ')
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    file_path = os.path.join(script_dir, 'data', 'top-10k-spotify-songs-2025-07-detailed.csv')
+    df = pd.read_csv(file_path)
+    #query = input('Enter the song you would like to find similar tracks to: ')
+    #count = input('Enter how many similar tracks to recommend: ')
+    query, count = '5jzKL4BDMClWqRguW5qZvh', 10
     print(recommend(df, query, int(count)))
