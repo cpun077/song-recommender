@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import pandas as pd
 from contextlib import asynccontextmanager
 
-from backend.recommender import preprocess, recommend
+from backend.recommender import preprocess, recommend, search
 
 # Global variables to store the data
 ml_models = {}
@@ -11,7 +11,7 @@ ml_models = {}
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     # Load data ONCE so it's not processed on every request
-    print("Loading datasets and precomputing TF-IDF vectors...")
+    print("Loading datasets and precomputing song embeddings...")
     df = pd.read_csv('./backend/data/top-10k-spotify-songs-2025-07-detailed.csv')
     precomputed = preprocess(df.copy())
     
@@ -50,3 +50,18 @@ async def get_recommendations(song: str, count: int = 5):
     # Convert dataframe result to list of dicts for JSON
     recommendations = result.to_dict(orient="records")
     return {"recommendations": recommendations}
+
+@app.get("/api/search")
+async def search_songs(query: str):
+    if "df" not in ml_models or "precomputed" not in ml_models:
+        raise HTTPException(status_code=503, detail="Model is loading")
+        
+    df = ml_models["df"]
+    precomputed = ml_models["precomputed"]
+    
+    # Run the search
+    result = search(query, precomputed=precomputed)
+    
+    # Convert dataframe result to list of dicts for JSON
+    results = result.to_dict(orient="records")
+    return {"results": results}
