@@ -73,66 +73,59 @@ def search(song_name:str, precomputed=None):
         tracklist, audio_matrix, audio_col, lyrics_matrix, lyrics_col = preprocess(df)
     else:
         tracklist, audio_matrix, audio_col, lyrics_matrix, lyrics_col = precomputed
-        
+
     querylist = tracklist[tracklist['track_name'].str.contains(song_name, case=False)]
     return querylist
     
 
-def recommend(df:DataFrame, song:str, n=5, precomputed=None):
+def recommend(df:DataFrame, song:str, n=5, precomputed=None, second_song:str=None):
     if precomputed is None:
         tracklist, audio_matrix, audio_col, lyrics_matrix, lyrics_col = preprocess(df)
     else:
         tracklist, audio_matrix, audio_col, lyrics_matrix, lyrics_col = precomputed
-
-    weights = np.array([
-        1.2,  # danceability
-        1.2,  # energy
-        1.0,  # loudness
-        0.1,  # mode
-        0.3,  # speechiness
-        0.8,  # acousticness
-        0.5,  # instrumentalness
-        1.3,  # valence
-        1.0   # tempo
-    ])
-    audio_matrix = audio_matrix * weights
 
     try:
         song_idx = tracklist[tracklist['track_id'] == song].index[0]
     except IndexError:
         return "Song not found in database."
 
-    song_audio, song_lyrics = audio_matrix[song_idx], lyrics_matrix[song_idx]
+    if second_song is None:
+        song_audio, song_lyrics = audio_matrix[song_idx], lyrics_matrix[song_idx]
+    else:
+        second_idx = tracklist[tracklist['track_id'] == second_song].index[0]
+        song_audio, song_lyrics = (audio_matrix[song_idx] + audio_matrix[second_idx]) / 2, (lyrics_matrix[song_idx] + lyrics_matrix[second_idx]) / 2
 
     audio_sim = cosine_similarity(audio_matrix, song_audio.reshape(1,-1)).flatten()
     lyrics_sim = cosine_similarity(lyrics_matrix, song_lyrics.reshape(1,-1)).flatten()
 
     audio_rank = np.argsort(np.argsort(-audio_sim))
     lyrics_rank = np.argsort(np.argsort(-lyrics_sim))
-
     combined_rank = (
         0.8 * audio_rank + 0.2 * lyrics_rank
         #audio_rank
     )
     sorted_all_idx = np.argsort(combined_rank)
-    top_n_idx = sorted_all_idx[1:n+1]
+
+    if second_song is None:
+        top_n_idx = sorted_all_idx[sorted_all_idx != song_idx][0:n]
+    else:
+        top_n_idx = sorted_all_idx[(sorted_all_idx != song_idx) & (sorted_all_idx != second_idx)][0:n]
     top_n_recs = tracklist.iloc[top_n_idx][['track_name', 'artist_names']]
     
-    # DEBUGGING TEENAGE DREAM / LAST FRIDAY NIGHT (TGIF)
-    target_song = '3avYqdwHKEq8beXbeWCKqJ'
-    target_idx = tracklist[tracklist['track_id'] == target_song].index[0]
-    target_rank = np.where(sorted_all_idx == target_idx)[0][0]
-    print(f"\n--- Debug: {target_song} ---")
-    print(f"Rank: {target_rank}, Audio Similarity: {audio_sim[target_idx]:.5f}, Lyrics Similarity: {lyrics_sim[target_idx]:.5f}\n")
+    # DEBUGGING TWO SONG SEED
+    if second_song is not None:
+        second_rank = np.where(sorted_all_idx == second_idx)[0][0]
+        print(f"\n--- Debug: {second_song} ---")
+        print(f"Rank: {second_rank}, Audio Similarity: {audio_sim[second_idx]:.5f}, Lyrics Similarity: {lyrics_sim[second_idx]:.5f}\n")
 
-    top_n_audio = [audio_matrix[idx] for idx in top_n_idx]
-    print(f"Audio Data ({song}, {target_song}, Top {n})")
-    print(pd.DataFrame(data=np.vstack((audio_matrix[song_idx], audio_matrix[target_idx])), columns=audio_col))
-    print(pd.DataFrame(data=top_n_audio, columns=audio_col))
-    top_n_lyrics = [lyrics_matrix[idx] for idx in top_n_idx]
-    print(f"Lyrics Data ({song}, {target_song}, Top {n})")
-    print(pd.DataFrame(data=np.vstack((lyrics_matrix[song_idx], lyrics_matrix[target_idx])), columns=lyrics_col))
-    print(pd.DataFrame(data=top_n_lyrics, columns=lyrics_col))
+        top_n_audio = [audio_matrix[idx] for idx in top_n_idx]
+        print(f"Audio Data ({song}, {second_song}, Top {n})")
+        print(pd.DataFrame(data=np.vstack((audio_matrix[song_idx], audio_matrix[second_idx])), columns=audio_col))
+        print(pd.DataFrame(data=top_n_audio, columns=audio_col))
+        top_n_lyrics = [lyrics_matrix[idx] for idx in top_n_idx]
+        print(f"Lyrics Data ({song}, {second_song}, Top {n})")
+        print(pd.DataFrame(data=np.vstack((lyrics_matrix[song_idx], lyrics_matrix[second_idx])), columns=lyrics_col))
+        print(pd.DataFrame(data=top_n_lyrics, columns=lyrics_col))
 
     return top_n_recs
 
@@ -143,5 +136,4 @@ if __name__ == '__main__':
     #query = input('Enter the song you would like to find similar tracks to: ')
     #count = input('Enter how many similar tracks to recommend: ')
     query, count = '5jzKL4BDMClWqRguW5qZvh', 10
-    print(recommend(df, query, int(count)))
-    print(search('Teenage Dream'))
+    print(recommend(df, query, int(count), second_song='3avYqdwHKEq8beXbeWCKqJ'))
