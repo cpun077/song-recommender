@@ -50,15 +50,16 @@ def preprocess(df):
     # df['key_cos'] = np.cos(df['key']/12 * 2*np.pi)
     # df = df.drop(columns=['key'])
 
-    if os.path.exists("lyrics_embeddings.npy"):
-        lyrics = np.load("lyrics_embeddings.npy")
+    embedding_path = os.path.join(script_dir, 'data', "lyrics_embeddings.npy")
+    if os.path.exists(embedding_path):
+        lyrics = np.load(embedding_path)
     else:
         model = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')
         lyrics = np.vstack([
             embed_song(text, model)
             for text in df["lyrics"]
         ])
-        np.save("lyrics_embeddings.npy", lyrics)
+        np.save(embedding_path, lyrics)
     
     df = df.drop(columns=['lyrics', 'track_id', 'track_name', 'artist_names'])
     audio = df.values
