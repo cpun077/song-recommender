@@ -3,7 +3,8 @@ from fastapi.middleware.cors import CORSMiddleware
 import pandas as pd
 from contextlib import asynccontextmanager
 
-from backend.recommender import preprocess, recommend, search
+from backend.preprocess import preprocess, search
+from backend.twostage import recommend
 
 # Global variables to store the data
 ml_models = {}
@@ -41,7 +42,7 @@ async def get_recommendations(song: str, count: int = 5):
     precomputed = ml_models["precomputed"]
     
     # Run the recommender
-    result = recommend(df, song, n=count, precomputed=precomputed)
+    result = recommend(df, song, n=count*10, k=count, precomputed=precomputed)
     
     if isinstance(result, str):
         # Result is a string when "Song not found in database"

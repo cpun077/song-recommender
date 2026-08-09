@@ -1,11 +1,14 @@
 # generate 200 song evaluation set based on audio feature clustering and release era
 import os
 import pandas as pd
+import numpy as np
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
 from sklearn.manifold import TSNE
 from sklearn.metrics import silhouette_score
 import matplotlib.pyplot as plt
+from preprocess import preprocess
+import singlestage, twostage
 
 # EDA
 def cluster_exploration(df:pd.DataFrame):
@@ -80,7 +83,7 @@ def cluster_exploration(df:pd.DataFrame):
     os.makedirs("./backend/charts", exist_ok=True)
     plt.savefig("./backend/charts/silhouette-v-k.png", dpi=300, bbox_inches="tight")
 
-def create_eval_set(df:pd.DataFrame, k:int=10, songs:int=200):
+def create_query_set(df:pd.DataFrame, k:int=10, songs:int=200, save:bool=True, output_dir:str='./'):
     print('\n—— creating eval set ——\n')
 
     eval_df = df.copy().dropna()
@@ -117,12 +120,35 @@ def create_eval_set(df:pd.DataFrame, k:int=10, songs:int=200):
         if count > 0
     ])[['track_id','track_name','artist_names','main_genres', 'release_yr','release_era','cluster']]
 
-    return eval_set.reset_index(drop=True)
+    eval_set = eval_set.reset_index(drop=True)
+    if save:
+        eval_set.to_csv(os.path.join(output_dir, 'data', 'eval-queries.csv'))
+
+    return eval_set
+
+def create_recs_set(df:pd.DataFrame, eval_set:pd.DataFrame):
+    tracks = eval_set['track_id']
+    precomputed = preprocess(df)
+    eval_recs= pd.DataFrame({
+        'query_id':tracks, 
+        'query_name':eval_set['track_name'],
+        'query_artist':eval_set['artist_names']
+    })
+
+    for track in tracks:
+        single_recs = singlestage.recommend(df, track, 10, precomputed)
+        two_recs = twostage.recommend(df, track, 100, 10, precomputed)
+        total_recs = (
+            pd.concat([single_recs,two_recs])
+            .sample(frac=1,random_state=42)
+            .reset_index(drop=True)
+        )
+        # not finished implementing
+    return 0
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 file_path = os.path.join(script_dir, 'data', 'top-10k-spotify-songs-2025-07-detailed.csv')
 df = pd.read_csv(file_path)
 
-eval_set = create_eval_set(df=df)
-eval_set.to_csv(os.path.join(script_dir, 'data', 'eval-set.csv'))
-print(eval_set)
+# eval_set = create_query_set(df=df, output_dir=script_dir)
+# print(eval_set)
