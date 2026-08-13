@@ -126,29 +126,48 @@ def create_query_set(df:pd.DataFrame, k:int=10, songs:int=200, save:bool=True, o
 
     return eval_set
 
-def create_recs_set(df:pd.DataFrame, eval_set:pd.DataFrame):
-    tracks = eval_set['track_id']
+def create_recs_set(df:pd.DataFrame, eval_set:pd.DataFrame, save:bool=True, output_dir:str='./'):
     precomputed = preprocess(df)
-    eval_recs= pd.DataFrame({
-        'query_id':tracks, 
-        'query_name':eval_set['track_name'],
-        'query_artist':eval_set['artist_names']
-    })
+    tracklist = precomputed[0]
+    rows = []
 
-    for track in tracks:
+    for _, query in eval_set.iterrows():
+        track = query['track_id']
         single_recs = singlestage.recommend(df, track, 10, precomputed)
         two_recs = twostage.recommend(df, track, 100, 10, precomputed)
-        total_recs = (
-            pd.concat([single_recs,two_recs])
-            .sample(frac=1,random_state=42)
-            .reset_index(drop=True)
-        )
-        # not finished implementing
-    return 0
+
+        for model_name, recs in [('singlestage', single_recs), ('twostage', two_recs)]:
+            if isinstance(recs, str): # error guard
+                continue
+            for rank, (idx, rec) in enumerate(recs.iterrows(), 1):
+                rows.append({
+                    'query_id': track,
+                    'query_name': query['track_name'],
+                    'query_artist': query['artist_names'],
+                    'rec_rank': rank,
+                    'rec_id': tracklist.iloc[idx]['track_id'],
+                    'rec_name': rec['track_name'],
+                    'rec_artist': rec['artist_names'],
+                    'model': model_name,
+                    'relevance_score': ''
+                })
+
+    eval_recs = pd.DataFrame(rows)
+    shuffled = []
+    for qid, group in eval_recs.groupby('query_id', sort=False):
+        shuffled.append(group.sample(frac=1, random_state=42))
+    eval_recs = pd.concat(shuffled).reset_index(drop=True)
+
+    if save:
+        eval_recs.to_csv(os.path.join(output_dir, 'data', 'eval-recs.csv'), index=False)
+        print(f'Saved {len(eval_recs)} recommendations to eval-recs.csv')
+
+    return eval_recs
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 file_path = os.path.join(script_dir, 'data', 'top-10k-spotify-songs-2025-07-detailed.csv')
 df = pd.read_csv(file_path)
 
 # eval_set = create_query_set(df=df, output_dir=script_dir)
-# print(eval_set)
+eval_set = pd.read_csv(os.path.join(script_dir, 'data', 'eval-queries.csv'), index_col=0)
+create_recs_set(df=df, eval_set=eval_set, output_dir=script_dir)
