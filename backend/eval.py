@@ -84,7 +84,6 @@ def cluster_exploration(df:pd.DataFrame):
     plt.savefig("./backend/charts/silhouette-v-k.png", dpi=300, bbox_inches="tight")
 
 def create_query_set(df:pd.DataFrame, k:int=10, songs:int=200, save:bool=True, output_dir:str='./'):
-    print('\n—— creating eval set ——\n')
 
     eval_df = df.copy().dropna()
     eval_df['release_yr'] = eval_df['release_date'].str.extract(r'^(\d{4})-?').astype(int)
@@ -149,7 +148,7 @@ def create_recs_set(df:pd.DataFrame, eval_set:pd.DataFrame, save:bool=True, outp
                     'rec_name': rec['track_name'],
                     'rec_artist': rec['artist_names'],
                     'model': model_name,
-                    'relevance_score': ''
+                    'relevance_score': '' # manual scoring for now
                 })
 
     eval_recs = pd.DataFrame(rows)
@@ -163,6 +162,57 @@ def create_recs_set(df:pd.DataFrame, eval_set:pd.DataFrame, save:bool=True, outp
         print(f'Saved {len(eval_recs)} recommendations to eval-recs.csv')
 
     return eval_recs
+
+def evaluate_model(eval_recs: pd.DataFrame, model_name: str):
+    scored = eval_recs[
+        (eval_recs['model'] == model_name) &
+        (eval_recs['relevance_score'].notna()) &
+        (eval_recs['relevance_score'] != '')
+    ].copy()
+    scored['relevance_score'] = scored['relevance_score'].astype(float)
+    scored = scored.sort_values(['query_id', 'rec_rank'])
+
+    scores_by_query = (
+        scored
+        .groupby('query_id')['relevance_score']
+        .apply(list)
+    )
+    ndcgs, precisions, mean_rels = [], [], []
+
+    for query_id, rels in scores_by_query.items():
+        if len(rels) != 10:
+            raise ValueError(
+                f"Query {query_id} has {len(rels)} recommendations, expected 10"
+            )
+        rels = np.array(rels)
+
+        mean_rels.append(rels.mean())
+        precisions.append(np.mean(rels >= 2))
+
+        # ndcg calcs
+        discounts = np.log2(np.arange(2, 12))
+        dcg = np.sum(rels / discounts)
+
+        ideal_rels = np.sort(rels)[::-1]
+        idcg = np.sum(ideal_rels / discounts)
+
+        ndcgs.append(dcg / idcg if idcg > 0 else 0.0)
+
+    results = {
+        'model': model_name,
+        'ndcg@10': np.mean(ndcgs),
+        'precision@10': np.mean(precisions),
+        'mean_relevance@10': np.mean(mean_rels),
+        'n_queries': len(ndcgs)
+    }
+
+    print(f"\n—— {model_name} evaluation ——")
+    print(f"  NDCG@10:           {results['ndcg@10']:.4f}")
+    print(f"  Precision@10:      {results['precision@10']:.4f}")
+    print(f"  Mean Relevance@10: {results['mean_relevance@10']:.4f}")
+    print(f"  Queries evaluated: {results['n_queries']}")
+
+    return results
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 file_path = os.path.join(script_dir, 'data', 'top-10k-spotify-songs-2025-07-detailed.csv')
