@@ -43,7 +43,7 @@ def recommend(df:pd.DataFrame, song:str, n=50, k=5, precomputed=None, second_son
     # (stage 2) reranking - weighted similarity scoring
     candidate_scores = 0.8 * audio_sim[candidates] + 0.2 * lyrics_sim[candidates]
     top_k = candidates[np.argsort(-candidate_scores)[:k]]
-    top_k_recs = tracklist.iloc[top_k][['track_name', 'artist_names']]
+    top_k_recs = tracklist.iloc[top_k][['track_id', 'track_name', 'artist_names']]
 
     return top_k_recs
 

@@ -127,7 +127,6 @@ def create_query_set(df:pd.DataFrame, k:int=10, songs:int=200, save:bool=True, o
 
 def create_recs_set(df:pd.DataFrame, eval_set:pd.DataFrame, save:bool=True, output_dir:str='./'):
     precomputed = preprocess(df)
-    tracklist = precomputed[0]
     rows = []
 
     for _, query in eval_set.iterrows():
@@ -139,12 +138,14 @@ def create_recs_set(df:pd.DataFrame, eval_set:pd.DataFrame, save:bool=True, outp
             if isinstance(recs, str): # error guard
                 continue
             for rank, (idx, rec) in enumerate(recs.iterrows(), 1):
+                if rec['track_id'] == track:  # skip if rec is the same song as query
+                    continue
                 rows.append({
                     'query_id': track,
                     'query_name': query['track_name'],
                     'query_artist': query['artist_names'],
                     'rec_rank': rank,
-                    'rec_id': tracklist.iloc[idx]['track_id'],
+                    'rec_id': rec['track_id'],
                     'rec_name': rec['track_name'],
                     'rec_artist': rec['artist_names'],
                     'model': model_name,

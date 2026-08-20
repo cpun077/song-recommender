@@ -40,7 +40,7 @@ def recommend(df:pd.DataFrame, song:str, k=5, precomputed=None, second_song:str=
         top_n_idx = sorted_all_idx[sorted_all_idx != song_idx][0:k]
     else:
         top_n_idx = sorted_all_idx[(sorted_all_idx != song_idx) & (sorted_all_idx != second_idx)][0:k]
-    top_n_recs = tracklist.iloc[top_n_idx][['track_name', 'artist_names']]
+    top_n_recs = tracklist.iloc[top_n_idx][['track_id', 'track_name', 'artist_names']]
     
     # DEBUGGING TWO SONG SEED
     # if second_song is not None:

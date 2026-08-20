@@ -1,244 +1,244 @@
 query_id,query_name,query_artist,rec_rank,rec_id,rec_name,rec_artist,model,relevance_score
-7A07Yu1dRND3RKDzbhKrDs,Fuerte No Soy,Intocable,1,4djS8o4kW0kiETtvkLJN2F,Tu Dama De Hierro,Marisela,singlestage,
-7A07Yu1dRND3RKDzbhKrDs,Fuerte No Soy,Intocable,8,7BgyWwbbybJr2IbQoI1gzH,Stevie Doesn't Wonder,Hotel Ugly,twostage,
-7A07Yu1dRND3RKDzbhKrDs,Fuerte No Soy,Intocable,6,3aQ9MHkMeL7Yu7jpyF62xn,Neverender,Justice|Tame Impala,twostage,
-7A07Yu1dRND3RKDzbhKrDs,Fuerte No Soy,Intocable,2,36w8f4Cl7JqTbFDamAdq8Q,Wie?,AYLIVA,singlestage,
-7A07Yu1dRND3RKDzbhKrDs,Fuerte No Soy,Intocable,9,54gaPLcsCWmPUmrgpib9mS,Ahí Estaré Yo,Los Temerarios,singlestage,
-7A07Yu1dRND3RKDzbhKrDs,Fuerte No Soy,Intocable,6,1iSqfoUFnQwV0QW1EfUit8,Suicidal,YNW Melly,singlestage,
-7A07Yu1dRND3RKDzbhKrDs,Fuerte No Soy,Intocable,2,3l3xTXsUXeWlkPqzMs7mPD,End Of The Road,Boyz II Men,twostage,
-7A07Yu1dRND3RKDzbhKrDs,Fuerte No Soy,Intocable,4,2Ch7LmS7r2Gy2kc64wv3Bz,Die For You,The Weeknd,singlestage,
-7A07Yu1dRND3RKDzbhKrDs,Fuerte No Soy,Intocable,9,2J4qy8RyfwgXHt73cWOE6P,Fría Como El Viento,Luis Miguel,twostage,
-7A07Yu1dRND3RKDzbhKrDs,Fuerte No Soy,Intocable,7,5EfHXTq8UPCFyPDvCNIKMm,Kumbala,Maldita Vecindad Y Los Hijos Del 5to. Patio,twostage,
-7A07Yu1dRND3RKDzbhKrDs,Fuerte No Soy,Intocable,4,0e3yhVeNaTfKIWQRw9U9sY,Sacrifice,Elton John,twostage,
-7A07Yu1dRND3RKDzbhKrDs,Fuerte No Soy,Intocable,3,3l3xTXsUXeWlkPqzMs7mPD,End Of The Road,Boyz II Men,singlestage,
-7A07Yu1dRND3RKDzbhKrDs,Fuerte No Soy,Intocable,10,3dP0pLbg9OfVwssDjp9aT0,Satisfied,Renée Elise Goldsberry|Original Broadway Cast of Hamilton,singlestage,
-7A07Yu1dRND3RKDzbhKrDs,Fuerte No Soy,Intocable,10,4djS8o4kW0kiETtvkLJN2F,Tu Dama De Hierro,Marisela,twostage,
-7A07Yu1dRND3RKDzbhKrDs,Fuerte No Soy,Intocable,5,2LBqCSwhJGcFQeTHMVGwy3,Die For You,The Weeknd,singlestage,
-7A07Yu1dRND3RKDzbhKrDs,Fuerte No Soy,Intocable,3,7CHi4DtfK4heMlQaudCuHK,Lose Control,MEDUZA|Becky Hill|Goodboys,twostage,
-7A07Yu1dRND3RKDzbhKrDs,Fuerte No Soy,Intocable,8,1CpICQpUz3ZrHcJs84oAbH,REGALO DE DIOS,Gabito Ballesteros|Carin Leon,singlestage,
-7A07Yu1dRND3RKDzbhKrDs,Fuerte No Soy,Intocable,1,1JQ6Xm1JrvHfvAqhl5pwaA,Easy,Commodores,twostage,
-7A07Yu1dRND3RKDzbhKrDs,Fuerte No Soy,Intocable,5,5BUq9bdtsm3LWw5laJeJ4R,Hopelessly Devoted To You - From “Grease”,Olivia Newton-John,twostage,
-7A07Yu1dRND3RKDzbhKrDs,Fuerte No Soy,Intocable,7,34hM4PLlhyBysgL50IWdHf,Y Tú Te Vas,Chayanne,singlestage,
-5HNCy40Ni5BZJFw1TKzRsC,Comfortably Numb,Pink Floyd,1,5GbVzc6Ex5LYlLJqzRQhuy,Mystery of Love,Sufjan Stevens,singlestage,
-5HNCy40Ni5BZJFw1TKzRsC,Comfortably Numb,Pink Floyd,8,0z1o5L7HJx562xZSATcIpY,Exit Music (For A Film),Radiohead,twostage,
-5HNCy40Ni5BZJFw1TKzRsC,Comfortably Numb,Pink Floyd,6,492ceDtqmafb6QD1Xfhpmo,Like a Prayer - Choir Version From “Deadpool & Wolverine”,I'll Take You There Choir,twostage,
-5HNCy40Ni5BZJFw1TKzRsC,Comfortably Numb,Pink Floyd,2,2LKOHdMsL0K9KwcPRlJK2v,After Dark,Mr.Kitty,singlestage,
-5HNCy40Ni5BZJFw1TKzRsC,Comfortably Numb,Pink Floyd,9,492ceDtqmafb6QD1Xfhpmo,Like a Prayer - Choir Version From “Deadpool & Wolverine”,I'll Take You There Choir,singlestage,
-5HNCy40Ni5BZJFw1TKzRsC,Comfortably Numb,Pink Floyd,6,329PAO2XpurUBEWszXKG5K,Miss You,Nu Aspect|Jamis|Poppy Baskcomb,singlestage,
-5HNCy40Ni5BZJFw1TKzRsC,Comfortably Numb,Pink Floyd,2,2ctvdKmETyOzPb2GiJJT53,Breathe (In the Air),Pink Floyd,twostage,
-5HNCy40Ni5BZJFw1TKzRsC,Comfortably Numb,Pink Floyd,4,2rtGaCAeYtmcIvuZsvgTf6,How to Disappear Completely,Radiohead,singlestage,
-5HNCy40Ni5BZJFw1TKzRsC,Comfortably Numb,Pink Floyd,9,5cbI0HJrTDb0njDk653bcN,Goth (Slowed + Reverb),Sidewalks and Skeletons,twostage,
-5HNCy40Ni5BZJFw1TKzRsC,Comfortably Numb,Pink Floyd,7,79x7xtoCLpf6l32Zz6mWo4,BOKeTE,Bad Bunny,twostage,
-5HNCy40Ni5BZJFw1TKzRsC,Comfortably Numb,Pink Floyd,4,2QwObYJWyJTiozvs0RI7CF,Street Spirit (Fade Out),Radiohead,twostage,
-5HNCy40Ni5BZJFw1TKzRsC,Comfortably Numb,Pink Floyd,3,79x7xtoCLpf6l32Zz6mWo4,BOKeTE,Bad Bunny,singlestage,
-5HNCy40Ni5BZJFw1TKzRsC,Comfortably Numb,Pink Floyd,10,2lTm559tuIvatlT1u0JYG2,BAILE INoLVIDABLE,Bad Bunny,singlestage,
-5HNCy40Ni5BZJFw1TKzRsC,Comfortably Numb,Pink Floyd,10,2EqlS6tkEnglzr7tkKAAYD,Come Together - Remastered 2009,The Beatles,twostage,
-5HNCy40Ni5BZJFw1TKzRsC,Comfortably Numb,Pink Floyd,5,3hxIUxnT27p5WcmjGUXNwx,Shut up My Moms Calling,Hotel Ugly,singlestage,
-5HNCy40Ni5BZJFw1TKzRsC,Comfortably Numb,Pink Floyd,3,2rtGaCAeYtmcIvuZsvgTf6,How to Disappear Completely,Radiohead,twostage,
-5HNCy40Ni5BZJFw1TKzRsC,Comfortably Numb,Pink Floyd,8,2fQwoYSzWzChmIB2zZwrGL,Remember Me (from the series Arcane League of Legends),Arcane|d4vd,singlestage,
-5HNCy40Ni5BZJFw1TKzRsC,Comfortably Numb,Pink Floyd,1,0qSnORtqjEXLFKKKSy9WMc,Beanie - Slowed,Chezile,twostage,
-5HNCy40Ni5BZJFw1TKzRsC,Comfortably Numb,Pink Floyd,5,7n3WO6ESKS1uCI9fgkGs66,I'd Love to Change the World - 2004 Remaster,Ten Years After,twostage,
-5HNCy40Ni5BZJFw1TKzRsC,Comfortably Numb,Pink Floyd,7,2FZIabCRMEWAYfN69Ijn1U,homesick,wave to earth,singlestage,
-2ajUl8lBLAXOXNpG4NEPMz,Sway,Michael Bublé,1,0NQyryTVbjGMtWMA1eSqIn,Resenha do Arrocha,J. Eskine|Alef Donk,singlestage,
-2ajUl8lBLAXOXNpG4NEPMz,Sway,Michael Bublé,8,3OLFqbd9ZeVjaUKTiaLsD6,Tu Hi Haqeeqat,Pritam|Javed Ali|Irshan Ashraf|Shadab,twostage,
-2ajUl8lBLAXOXNpG4NEPMz,Sway,Michael Bublé,6,0NQyryTVbjGMtWMA1eSqIn,Resenha do Arrocha,J. Eskine|Alef Donk,twostage,
-2ajUl8lBLAXOXNpG4NEPMz,Sway,Michael Bublé,2,3dnP0JxCgygwQH9Gm7q7nb,Ella Baila Sola,Eslabon Armado|Peso Pluma,singlestage,
-2ajUl8lBLAXOXNpG4NEPMz,Sway,Michael Bublé,9,293mQGfVwgXIOdA1GpiwAt,Love & War,Kodak Black,singlestage,
-2ajUl8lBLAXOXNpG4NEPMz,Sway,Michael Bublé,6,4GUphFvzqaCHPDkS2VDn2I,Tunggu Apa Lagi,Nyoman Paul,singlestage,
-2ajUl8lBLAXOXNpG4NEPMz,Sway,Michael Bublé,2,2dy3TKVDEbIeWxeIb8JWqZ,La Mejor Versión de Mi - Remix,NATTI NATASHA|Romeo Santos,twostage,
-2ajUl8lBLAXOXNpG4NEPMz,Sway,Michael Bublé,4,2zLLGT8WWT1dl73TlVL9qs,Mariposa Traicionera - 2020 Remasterizado,Maná,singlestage,
-2ajUl8lBLAXOXNpG4NEPMz,Sway,Michael Bublé,9,2k0D2OXWXwuwBPXLQQYmZx,Dost Banke,Gurnazar|Rahat Fateh Ali Khan|Kartik Dev,twostage,
-2ajUl8lBLAXOXNpG4NEPMz,Sway,Michael Bublé,7,0QCTjU9xOvdDfe9LXEmxeT,El Amor De Mi Herida,Carin Leon,twostage,
-2ajUl8lBLAXOXNpG4NEPMz,Sway,Michael Bublé,4,71vWRlfHefIMtoDnUPtXcf,Vanilla,VEN1|Ramos.,twostage,
-2ajUl8lBLAXOXNpG4NEPMz,Sway,Michael Bublé,3,6bK9BH9Ts8Gj5JFvnQkzak,Get Busy,Sean Paul,singlestage,
-2ajUl8lBLAXOXNpG4NEPMz,Sway,Michael Bublé,10,2XU0oxnq2qxCpomAAuJY8K,Dance Monkey,Tones And I,singlestage,
-2ajUl8lBLAXOXNpG4NEPMz,Sway,Michael Bublé,10,5jVExEArvISIYu8mamVgfV,LA DURANGO,Peso Pluma|Junior H|Eslabon Armado,twostage,
-2ajUl8lBLAXOXNpG4NEPMz,Sway,Michael Bublé,5,01vHGJRvJ6EZW9KO8NtZpi,"Un Polvo (feat. Bad Bunny, Arcángel, Ñengo Flow & De La Ghetto)",Maluma|Bad Bunny|Arcángel|Ñengo Flow|De La Ghetto,singlestage,
-2ajUl8lBLAXOXNpG4NEPMz,Sway,Michael Bublé,3,5ZK62nSchTamBy8F6HIZov,Sea Gets Hotter,Durand Jones & The Indications|Durand Jones|Aaron Frazer,twostage,
-2ajUl8lBLAXOXNpG4NEPMz,Sway,Michael Bublé,8,3Kl8p2PxVf8eAayLwTxOIm,Dil Ibaadat,Pritam|KK,singlestage,
-2ajUl8lBLAXOXNpG4NEPMz,Sway,Michael Bublé,1,0muI8DpTEpLqqibPm3sKYf,Te Extraño - Bachata Version,Xtreme,twostage,
-2ajUl8lBLAXOXNpG4NEPMz,Sway,Michael Bublé,5,4EbAftNM732UGLF8gmIIsX,Mi Santa (feat. Tomatito),Romeo Santos|Tomatito,twostage,
-2ajUl8lBLAXOXNpG4NEPMz,Sway,Michael Bublé,7,0o5p5zzRN84q6qVbOVONPM,MEET YOUR PADRE,PARTYNEXTDOOR|Drake|Chino Pacas,singlestage,
-2ZRo7axmMPeSVUvDbGkJah,Hope,XXXTENTACION,1,4b7vk8SRcYgnxpk0JOIS7r,Drugs You Should Try It,Travis Scott,singlestage,
-2ZRo7axmMPeSVUvDbGkJah,Hope,XXXTENTACION,8,4b7vk8SRcYgnxpk0JOIS7r,Drugs You Should Try It,Travis Scott,twostage,
-2ZRo7axmMPeSVUvDbGkJah,Hope,XXXTENTACION,6,057YRaQ57p70MVg4hMIIkB,Камин (feat. JONY),EMIN|JONY,twostage,
-2ZRo7axmMPeSVUvDbGkJah,Hope,XXXTENTACION,2,7eJMfftS33KTjuF7lTsMCx,death bed (coffee for your head),Powfu|beabadoobee,singlestage,
-2ZRo7axmMPeSVUvDbGkJah,Hope,XXXTENTACION,9,17cia5k4BpGVlyEfqrFH50,Can’t Catch Me Now - from The Hunger Games: The Ballad of Songbirds & Snakes,Olivia Rodrigo,singlestage,
-2ZRo7axmMPeSVUvDbGkJah,Hope,XXXTENTACION,6,0EA40dd5ghMqemzoqWvo3E,Sin miedo a nada (feat. Amaia Montero),Alex Ubago|Amaia Montero,singlestage,
-2ZRo7axmMPeSVUvDbGkJah,Hope,XXXTENTACION,2,4S2uhQE8L9V6p7rj7SiauJ,Suicidal (feat. Juice WRLD) - Remix,YNW Melly|Juice WRLD,twostage,
-2ZRo7axmMPeSVUvDbGkJah,Hope,XXXTENTACION,4,2ZWlPOoWh0626oTaHrnl2a,Ivy,Frank Ocean,singlestage,
-2ZRo7axmMPeSVUvDbGkJah,Hope,XXXTENTACION,9,14vcO1XwnWzz4RJnUAQSkW,LA CUEVA,Cazzu,twostage,
-2ZRo7axmMPeSVUvDbGkJah,Hope,XXXTENTACION,7,2nejvFyJeTDtMRP2nUMt0J,Abrázame Muy Fuerte,Juan Gabriel,twostage,
-2ZRo7axmMPeSVUvDbGkJah,Hope,XXXTENTACION,4,790xAaylcgzyKm40GM95Gl,missin something,Zach Templar,twostage,
-2ZRo7axmMPeSVUvDbGkJah,Hope,XXXTENTACION,3,3WMj8moIAXJhHsyLaqIIHI,Something in the Orange,Zach Bryan,singlestage,
-2ZRo7axmMPeSVUvDbGkJah,Hope,XXXTENTACION,10,1fDsrQ23eTAVFElUMaf38X,American Pie,Don McLean,singlestage,
-2ZRo7axmMPeSVUvDbGkJah,Hope,XXXTENTACION,10,3YKptz29AsOlm7WAVnztBh,Kiss from a Rose,Seal,twostage,
-2ZRo7axmMPeSVUvDbGkJah,Hope,XXXTENTACION,5,0SCIwbS0Q4etwJmDyNjHaQ,Diamond Boy (DTM),SZA,singlestage,
-2ZRo7axmMPeSVUvDbGkJah,Hope,XXXTENTACION,3,7hDVYcQq6MxkdJGweuCtl9,ocean eyes,Billie Eilish,twostage,
-2ZRo7axmMPeSVUvDbGkJah,Hope,XXXTENTACION,8,45ewyxF625HzqLCKgZU0tp,Apaga la luz,RØZ|Peso Pluma,singlestage,
-2ZRo7axmMPeSVUvDbGkJah,Hope,XXXTENTACION,1,06u5LrUpbosQlQ1QJFhPpG,Drew Barrymore,SZA,twostage,
-2ZRo7axmMPeSVUvDbGkJah,Hope,XXXTENTACION,5,17cia5k4BpGVlyEfqrFH50,Can’t Catch Me Now - from The Hunger Games: The Ballad of Songbirds & Snakes,Olivia Rodrigo,twostage,
-2ZRo7axmMPeSVUvDbGkJah,Hope,XXXTENTACION,7,0qpdzfTxAkOREtvvGO5oew,Chill Baby,SZA,singlestage,
-7pT6WSg4PCt4mr5ZFyUfsF,If We Have Each Other,Alec Benjamin,1,54pvEYFocTlvIAQOfXSjqV,Alone Again (Naturally),Gilbert O'Sullivan,singlestage,
-7pT6WSg4PCt4mr5ZFyUfsF,If We Have Each Other,Alec Benjamin,8,2niUiaoJDCzNldW0pV66zb,Nunca Es Suficiente,Natalia Lafourcade,twostage,
-7pT6WSg4PCt4mr5ZFyUfsF,If We Have Each Other,Alec Benjamin,6,4MsNwPBADIfVpQ9ZmXNc7B,Kervan,Bengü|Mustafa Ceceli,twostage,
-7pT6WSg4PCt4mr5ZFyUfsF,If We Have Each Other,Alec Benjamin,2,4MsNwPBADIfVpQ9ZmXNc7B,Kervan,Bengü|Mustafa Ceceli,singlestage,
-7pT6WSg4PCt4mr5ZFyUfsF,If We Have Each Other,Alec Benjamin,9,2m7Ev5rPlckRrn6HT2coGI,RETIRADA,Milo j,singlestage,
-7pT6WSg4PCt4mr5ZFyUfsF,If We Have Each Other,Alec Benjamin,6,4f0aDk7HX37SfzerfznYlr,Lapada Dela - Ao Vivo,Grupo Menos É Mais|Matheus Fernandes,singlestage,
-7pT6WSg4PCt4mr5ZFyUfsF,If We Have Each Other,Alec Benjamin,2,1OYHXCuHdzHjpHqHlY1g1r,Bad Luck,Zach Top,twostage,
-7pT6WSg4PCt4mr5ZFyUfsF,If We Have Each Other,Alec Benjamin,4,6Y46tOTRhkBamosyuWa6YX,LA FAMA,ROSALÍA|The Weeknd,singlestage,
-7pT6WSg4PCt4mr5ZFyUfsF,If We Have Each Other,Alec Benjamin,9,4f0aDk7HX37SfzerfznYlr,Lapada Dela - Ao Vivo,Grupo Menos É Mais|Matheus Fernandes,twostage,
-7pT6WSg4PCt4mr5ZFyUfsF,If We Have Each Other,Alec Benjamin,7,1iEwyiSLAunPR6uouANE0O,El Perdedor,Maluma,twostage,
-7pT6WSg4PCt4mr5ZFyUfsF,If We Have Each Other,Alec Benjamin,4,5ds1Hh3lo4JUF2vflqyayK,Manos de Tijera,Yiyo Sarante,twostage,
-7pT6WSg4PCt4mr5ZFyUfsF,If We Have Each Other,Alec Benjamin,3,71AVxv9fJVgGpGZIGcxud3,Se Puso Linda,KAROL G,singlestage,
-7pT6WSg4PCt4mr5ZFyUfsF,If We Have Each Other,Alec Benjamin,10,26QApq0cuO9brJigr0C0W4,HACIENDO QUE ME AMAS,Bad Bunny,singlestage,
-7pT6WSg4PCt4mr5ZFyUfsF,If We Have Each Other,Alec Benjamin,10,7qchN9iUKSFijPsadG9m2w,Tera Ghata,Gajendra Verma,twostage,
-7pT6WSg4PCt4mr5ZFyUfsF,If We Have Each Other,Alec Benjamin,5,0OBv4CEP5FKS19ZQGHAUM6,Fala na Cara,Mc Paiva ZS|DJ Ak beats|Love Funk,singlestage,
-7pT6WSg4PCt4mr5ZFyUfsF,If We Have Each Other,Alec Benjamin,3,1A9PKAFEHMWgXNLpgf7k4J,Piensan,Myke Towers,twostage,
-7pT6WSg4PCt4mr5ZFyUfsF,If We Have Each Other,Alec Benjamin,8,2fQrrBtuNVMWOHqLyk4EfO,Yo Todo Lo Doy,Alfredo Olivas,singlestage,
-7pT6WSg4PCt4mr5ZFyUfsF,If We Have Each Other,Alec Benjamin,1,0mP1c16IbyvTQvNMYKZ3Mx,Cabron Yo Puedo,Grupo Origen,twostage,
-7pT6WSg4PCt4mr5ZFyUfsF,If We Have Each Other,Alec Benjamin,5,54pvEYFocTlvIAQOfXSjqV,Alone Again (Naturally),Gilbert O'Sullivan,twostage,
-7pT6WSg4PCt4mr5ZFyUfsF,If We Have Each Other,Alec Benjamin,7,26y2gBrbiFJIOUjIlSQfdH,Vida De Rock,Duki|Milo j,singlestage,
-2WP8G2pdddDmnh1xbfKBOI,Finesse,Drake,1,4MbzauKV2ydtZZjLsPcuTF,Spread Thin,Mariah the Scientist,singlestage,
-2WP8G2pdddDmnh1xbfKBOI,Finesse,Drake,8,6NFyWDv5CjfwuzoCkw47Xf,Delicate,Taylor Swift,twostage,
-2WP8G2pdddDmnh1xbfKBOI,Finesse,Drake,6,4YZbVct8l9MnAVIROnLQdx,Forrest Gump,Frank Ocean,twostage,
-2WP8G2pdddDmnh1xbfKBOI,Finesse,Drake,2,6C1RD7YQVvt3YQj0CmuTeu,Diles,Bad Bunny|Ozuna|Farruko|Arcángel|Ñengo Flow|DJ Luian|Mambo Kingz,singlestage,
-2WP8G2pdddDmnh1xbfKBOI,Finesse,Drake,9,4ZOkfHC38nxSeSqzGE5HFr,PIÉNSALO,Junior H,singlestage,
-2WP8G2pdddDmnh1xbfKBOI,Finesse,Drake,6,3pXF1nA74528Edde4of9CC,Don't,Bryson Tiller,singlestage,
-2WP8G2pdddDmnh1xbfKBOI,Finesse,Drake,2,5lCMDnVpGTuFC7YejgpTIF,WYA,J Abdiel|iZaak,twostage,
-2WP8G2pdddDmnh1xbfKBOI,Finesse,Drake,4,3eekarcy7kvN4yt5ZFzltW,HIGHEST IN THE ROOM,Travis Scott,singlestage,
-2WP8G2pdddDmnh1xbfKBOI,Finesse,Drake,9,7t2bFihaDvhIrd2gn2CWJO,"Or Nah (feat. The Weeknd, Wiz Khalifa & DJ Mustard) - Remix",Ty Dolla $ign|The Weeknd|Wiz Khalifa|Mustard,twostage,
-2WP8G2pdddDmnh1xbfKBOI,Finesse,Drake,7,1CpICQpUz3ZrHcJs84oAbH,REGALO DE DIOS,Gabito Ballesteros|Carin Leon,twostage,
-2WP8G2pdddDmnh1xbfKBOI,Finesse,Drake,4,6n3HGiq4v35D6eFOSwqYuo,Teenage Fever,Drake,twostage,
-2WP8G2pdddDmnh1xbfKBOI,Finesse,Drake,3,6NFyWDv5CjfwuzoCkw47Xf,Delicate,Taylor Swift,singlestage,
-2WP8G2pdddDmnh1xbfKBOI,Finesse,Drake,10,7xYnUQigPoIDAMPVK79NEq,Run It! (feat. Juelz Santana),Chris Brown|Juelz Santana,singlestage,
-2WP8G2pdddDmnh1xbfKBOI,Finesse,Drake,10,65uoaqX5qcjXZRheAj1qQT,Dernière danse,Indila,twostage,
-2WP8G2pdddDmnh1xbfKBOI,Finesse,Drake,5,11ZulcYY4lowvcQm4oe3VJ,Slumber Party (feat. Princess Nokia),Ashnikko|Princess Nokia,singlestage,
-2WP8G2pdddDmnh1xbfKBOI,Finesse,Drake,3,5Eax0qFko2dh7Rl2lYs3bx,Efecto,Bad Bunny,twostage,
-2WP8G2pdddDmnh1xbfKBOI,Finesse,Drake,8,2tFwfmceQa1Y6nRPhYbEtC,CÓMO SE SIENTE - Remix,JHAYCO|Bad Bunny,singlestage,
-2WP8G2pdddDmnh1xbfKBOI,Finesse,Drake,1,6jdOi5U5LBzQrc4c1VT983,"Hold On, We're Going Home",Drake|Majid Jordan,twostage,
-2WP8G2pdddDmnh1xbfKBOI,Finesse,Drake,5,6HjYE79OOCGEhkIRfXLqrz,Damn Right (feat. Childish Gambino & Kali Uchis),JENNIE|Childish Gambino|Kali Uchis,twostage,
-2WP8G2pdddDmnh1xbfKBOI,Finesse,Drake,7,62OO2X47vPk5WxTx68HDqg,BAMBOLA (feat. Niky Savage),Artie 5ive|Niky Savage,singlestage,
-1RGasjWLZ4qMN7wbtkLa3u,my boy,Billie Eilish,1,14SaZBTjxlorHJQxXh01Hu,Girls Need Love (with Drake) - Remix,Summer Walker|Drake,singlestage,
-1RGasjWLZ4qMN7wbtkLa3u,my boy,Billie Eilish,8,7vRriwrloYVaoAe3a9wJHe,"i hate u, i love u (feat. olivia o'brien)",gnash|Olivia O'Brien,twostage,
-1RGasjWLZ4qMN7wbtkLa3u,my boy,Billie Eilish,6,4emEXP671dnpn1thHrogSe,Julieta,LATIN MAFIA,twostage,
-1RGasjWLZ4qMN7wbtkLa3u,my boy,Billie Eilish,2,2mo4wJKJJR2lQCZYnTaI4Y,For Me (feat. Brent Faiyaz) - Remix,Loe Shimmy|Brent Faiyaz,singlestage,
-1RGasjWLZ4qMN7wbtkLa3u,my boy,Billie Eilish,9,0l0vcZMU7AOeQmUIREoI2U,Qué Pasaría...,Rauw Alejandro|Bad Bunny,singlestage,
-1RGasjWLZ4qMN7wbtkLa3u,my boy,Billie Eilish,6,6XHVuErjQ4XNm6nDPVCxVX,No Guidance (feat. Drake),Chris Brown|Drake,singlestage,
-1RGasjWLZ4qMN7wbtkLa3u,my boy,Billie Eilish,2,3LmuxO8mh3wwIfRUqHJFFy,I'm The Man,50 Cent|Sonny Digital,twostage,
-1RGasjWLZ4qMN7wbtkLa3u,my boy,Billie Eilish,4,32cwemsMJdzzsOYjVzfYMS,Mauvais Garçon,Helena,singlestage,
-1RGasjWLZ4qMN7wbtkLa3u,my boy,Billie Eilish,9,2mo4wJKJJR2lQCZYnTaI4Y,For Me (feat. Brent Faiyaz) - Remix,Loe Shimmy|Brent Faiyaz,twostage,
-1RGasjWLZ4qMN7wbtkLa3u,my boy,Billie Eilish,7,5hQSXkFgbxjZo9uCwd11so,False God,Taylor Swift,twostage,
-1RGasjWLZ4qMN7wbtkLa3u,my boy,Billie Eilish,4,0AluA5RNsa4Cx6XRhf2hWZ,10 Freaky Girls (with 21 Savage),Metro Boomin|21 Savage,twostage,
-1RGasjWLZ4qMN7wbtkLa3u,my boy,Billie Eilish,3,3pXF1nA74528Edde4of9CC,Don't,Bryson Tiller,singlestage,
-1RGasjWLZ4qMN7wbtkLa3u,my boy,Billie Eilish,10,6yT1Qf1EKbUfiROeOWtzeN,Wenn der Himmel weint,Bausa|Jazeek,singlestage,
-1RGasjWLZ4qMN7wbtkLa3u,my boy,Billie Eilish,10,1QPreu0BNOrUfEb8HTd2qG,Rich Spirit,Kendrick Lamar,twostage,
-1RGasjWLZ4qMN7wbtkLa3u,my boy,Billie Eilish,5,7vRriwrloYVaoAe3a9wJHe,"i hate u, i love u (feat. olivia o'brien)",gnash|Olivia O'Brien,singlestage,
-1RGasjWLZ4qMN7wbtkLa3u,my boy,Billie Eilish,3,5AH31dDNgxCMGDdxubNNn4,NEL,Fuerza Regida,twostage,
-1RGasjWLZ4qMN7wbtkLa3u,my boy,Billie Eilish,8,3JA9Jsuxr4xgHXEawAdCp4,Just Can’t Get Enough,Black Eyed Peas,singlestage,
-1RGasjWLZ4qMN7wbtkLa3u,my boy,Billie Eilish,1,14SaZBTjxlorHJQxXh01Hu,Girls Need Love (with Drake) - Remix,Summer Walker|Drake,twostage,
-1RGasjWLZ4qMN7wbtkLa3u,my boy,Billie Eilish,5,3l5VjEAeUTqrlD50iEo8Yn,Licor 43,KayBlack|CVSTRO|Wall Hein|AMUSIK,twostage,
-1RGasjWLZ4qMN7wbtkLa3u,my boy,Billie Eilish,7,285pBltuF7vW8TeWk8hdRR,Lucid Dreams,Juice WRLD,singlestage,
-0pAiyIHt9DyHOjWgF41kp6,Steal,Maribou State|Holly Walker,1,0uQhDYHyoZe5DpncrPolb6,LAS NOCHES,Junior H,singlestage,
-0pAiyIHt9DyHOjWgF41kp6,Steal,Maribou State|Holly Walker,8,1TEL6MlSSVLSdhOSddidlJ,needy,Ariana Grande,twostage,
-0pAiyIHt9DyHOjWgF41kp6,Steal,Maribou State|Holly Walker,6,51rPRW8NjxZoWPPjnRGzHw,Tadow,Masego|FKJ,twostage,
-0pAiyIHt9DyHOjWgF41kp6,Steal,Maribou State|Holly Walker,2,3elpkpwYlmUbuvmVps08lJ,Te Ire A Buscar,Santa Fe Klan|Nanpa Básico,singlestage,
-0pAiyIHt9DyHOjWgF41kp6,Steal,Maribou State|Holly Walker,9,3f0wz6zcA7XkQiGm0qNF5r,"Thodi Jagah (From ""Marjaavaan"")",Arijit Singh|Tanishk Bagchi|Rashmi Virag,singlestage,
-0pAiyIHt9DyHOjWgF41kp6,Steal,Maribou State|Holly Walker,6,2Yy0FsAV2I5VXU4xpph2WN,Stay,Rihanna|Mikky Ekko,singlestage,
-0pAiyIHt9DyHOjWgF41kp6,Steal,Maribou State|Holly Walker,2,4fY3eujPNFdOrrCzVPCsoQ,Who are you?,Saga Faye,twostage,
-0pAiyIHt9DyHOjWgF41kp6,Steal,Maribou State|Holly Walker,4,6yA2GnuThv4oDuEimu4Rmg,MAYBE.,SIENNA SPIRO,singlestage,
-0pAiyIHt9DyHOjWgF41kp6,Steal,Maribou State|Holly Walker,9,4NYwy0R3NdvORX2B6OZXBT,Slow Motion,Trey Songz,twostage,
-0pAiyIHt9DyHOjWgF41kp6,Steal,Maribou State|Holly Walker,7,7nSataGo54Le0IfcFQCFLN,Love Love,Gilsons,twostage,
-0pAiyIHt9DyHOjWgF41kp6,Steal,Maribou State|Holly Walker,4,3f0wz6zcA7XkQiGm0qNF5r,"Thodi Jagah (From ""Marjaavaan"")",Arijit Singh|Tanishk Bagchi|Rashmi Virag,twostage,
-0pAiyIHt9DyHOjWgF41kp6,Steal,Maribou State|Holly Walker,3,11BAVEGi1ivJ6JWLqKUNrZ,Catch & Release - Deepend Remix,Matt Simons|Deepend,singlestage,
-0pAiyIHt9DyHOjWgF41kp6,Steal,Maribou State|Holly Walker,10,1whs2eO84P6NRtmDQN2YTl,arena,Beéle|Carla Morrison,singlestage,
-0pAiyIHt9DyHOjWgF41kp6,Steal,Maribou State|Holly Walker,10,1NCuYqMc8hKMb4cpNTcJbD,Another Day in Paradise - 2016 Remaster,Phil Collins,twostage,
-0pAiyIHt9DyHOjWgF41kp6,Steal,Maribou State|Holly Walker,5,0YywjDvFudcaHG74NuWISy,People Help the People,Birdy,singlestage,
-0pAiyIHt9DyHOjWgF41kp6,Steal,Maribou State|Holly Walker,3,0uQhDYHyoZe5DpncrPolb6,LAS NOCHES,Junior H,twostage,
-0pAiyIHt9DyHOjWgF41kp6,Steal,Maribou State|Holly Walker,8,0GNI8K3VATWBABQFAzBAYe,Stay,Rihanna|Mikky Ekko,singlestage,
-0pAiyIHt9DyHOjWgF41kp6,Steal,Maribou State|Holly Walker,1,269XSeQhDrWEotMALJaACW,Amour plastique,Videoclub|Adèle Castillon|Mattyeux,twostage,
-0pAiyIHt9DyHOjWgF41kp6,Steal,Maribou State|Holly Walker,5,11BAVEGi1ivJ6JWLqKUNrZ,Catch & Release - Deepend Remix,Matt Simons|Deepend,twostage,
-0pAiyIHt9DyHOjWgF41kp6,Steal,Maribou State|Holly Walker,7,3ElI5xtTBJlYf5sFSiNbJD,Aquí Te Espero,Ivan Cornejo,singlestage,
-3F3ZuXYFXGM1V6pk3b3zmi,Kinni Kinni,Diljit Dosanjh|thiarajxtt,1,5BQePe9rcCJozHK3oPayYk,MVP,Shubh,singlestage,
-3F3ZuXYFXGM1V6pk3b3zmi,Kinni Kinni,Diljit Dosanjh|thiarajxtt,8,0NJAqnvbF6vzripOB7PclP,Babaero,gins&melodies|Hev Abi,twostage,
-3F3ZuXYFXGM1V6pk3b3zmi,Kinni Kinni,Diljit Dosanjh|thiarajxtt,6,4vHy2IHzf3EabEa7oMpUZB,No Wahala,1da Banton,twostage,
-3F3ZuXYFXGM1V6pk3b3zmi,Kinni Kinni,Diljit Dosanjh|thiarajxtt,2,6c4Po8zyQjB4cR5XgLhcGb,9:45,Prabh Singh|Jay Trak|Rooh Sandhu,singlestage,
-3F3ZuXYFXGM1V6pk3b3zmi,Kinni Kinni,Diljit Dosanjh|thiarajxtt,9,32VAw8DL9ixX5XSW2VLcZ4,Aam Jahe Munde,Parmish Verma|PARDHAAN|Desi Crew,singlestage,
-3F3ZuXYFXGM1V6pk3b3zmi,Kinni Kinni,Diljit Dosanjh|thiarajxtt,6,0NJAqnvbF6vzripOB7PclP,Babaero,gins&melodies|Hev Abi,singlestage,
-3F3ZuXYFXGM1V6pk3b3zmi,Kinni Kinni,Diljit Dosanjh|thiarajxtt,2,6c4Po8zyQjB4cR5XgLhcGb,9:45,Prabh Singh|Jay Trak|Rooh Sandhu,twostage,
-3F3ZuXYFXGM1V6pk3b3zmi,Kinni Kinni,Diljit Dosanjh|thiarajxtt,4,3xgA3KSsd8mt3UjQxNtQy3,Bajrang Baan-Lofi,Rasraj Ji Maharaj,singlestage,
-3F3ZuXYFXGM1V6pk3b3zmi,Kinni Kinni,Diljit Dosanjh|thiarajxtt,9,32VAw8DL9ixX5XSW2VLcZ4,Aam Jahe Munde,Parmish Verma|PARDHAAN|Desi Crew,twostage,
-3F3ZuXYFXGM1V6pk3b3zmi,Kinni Kinni,Diljit Dosanjh|thiarajxtt,7,5PUXKVVVQ74C3gl5vKy9Li,Heeriye (feat. Arijit Singh),Jasleen Royal|Arijit Singh|Dulquer Salmaan,twostage,
-3F3ZuXYFXGM1V6pk3b3zmi,Kinni Kinni,Diljit Dosanjh|thiarajxtt,4,7spAR93xvPOfkxIeTGbpPf,Tas Texteandome,Katteyes|Kidd Voodoo,twostage,
-3F3ZuXYFXGM1V6pk3b3zmi,Kinni Kinni,Diljit Dosanjh|thiarajxtt,3,36N5awamOX6XX5pQn3aFXZ,"Soni Soni (From ""Ishq Vishk Rebound"")",Darshan Raval|Jonita Gandhi|Rochak Kohli|Gurpreet Saini,singlestage,
-3F3ZuXYFXGM1V6pk3b3zmi,Kinni Kinni,Diljit Dosanjh|thiarajxtt,10,4vHy2IHzf3EabEa7oMpUZB,No Wahala,1da Banton,singlestage,
-3F3ZuXYFXGM1V6pk3b3zmi,Kinni Kinni,Diljit Dosanjh|thiarajxtt,10,3xgA3KSsd8mt3UjQxNtQy3,Bajrang Baan-Lofi,Rasraj Ji Maharaj,twostage,
-3F3ZuXYFXGM1V6pk3b3zmi,Kinni Kinni,Diljit Dosanjh|thiarajxtt,5,5PUXKVVVQ74C3gl5vKy9Li,Heeriye (feat. Arijit Singh),Jasleen Royal|Arijit Singh|Dulquer Salmaan,singlestage,
-3F3ZuXYFXGM1V6pk3b3zmi,Kinni Kinni,Diljit Dosanjh|thiarajxtt,3,36N5awamOX6XX5pQn3aFXZ,"Soni Soni (From ""Ishq Vishk Rebound"")",Darshan Raval|Jonita Gandhi|Rochak Kohli|Gurpreet Saini,twostage,
-3F3ZuXYFXGM1V6pk3b3zmi,Kinni Kinni,Diljit Dosanjh|thiarajxtt,8,1BpvuKIG7jK5EiTp2tv5z8,King Shit,Shubh,singlestage,
-3F3ZuXYFXGM1V6pk3b3zmi,Kinni Kinni,Diljit Dosanjh|thiarajxtt,1,5BQePe9rcCJozHK3oPayYk,MVP,Shubh,twostage,
-3F3ZuXYFXGM1V6pk3b3zmi,Kinni Kinni,Diljit Dosanjh|thiarajxtt,5,6XjDF6nds4DE2BBbagZol6,Gata Only,FloyyMenor|Cris Mj,twostage,
-3F3ZuXYFXGM1V6pk3b3zmi,Kinni Kinni,Diljit Dosanjh|thiarajxtt,7,1LFNOKVaFVBFCiLwz8Ay4O,Ahista Ahista,Kazinama|Musarrat Nazir,singlestage,
-5JC2ezFSbkVi4Js4byzKoj,Poesia Acústica #6 Era uma Vez,MC Cabelinho|Bob do Contra|Azzy|Filipe Ret|Dudu|Xamã|Orochi|Maquiny|Pineapple StormTv,1,2Bi7IhhjS7ZgzSe7FMaHs1,wunderschön,Zartmann,singlestage,
-5JC2ezFSbkVi4Js4byzKoj,Poesia Acústica #6 Era uma Vez,MC Cabelinho|Bob do Contra|Azzy|Filipe Ret|Dudu|Xamã|Orochi|Maquiny|Pineapple StormTv,8,1mSxbLW7fKABfeY4lGpg0E,Velha Infância - 2004 Digital Remaster,Tribalistas,twostage,
-5JC2ezFSbkVi4Js4byzKoj,Poesia Acústica #6 Era uma Vez,MC Cabelinho|Bob do Contra|Azzy|Filipe Ret|Dudu|Xamã|Orochi|Maquiny|Pineapple StormTv,6,4s6LhHAV5SEsOV0lC2tjvJ,California Dreamin' - Single Version,The Mamas & The Papas,twostage,
-5JC2ezFSbkVi4Js4byzKoj,Poesia Acústica #6 Era uma Vez,MC Cabelinho|Bob do Contra|Azzy|Filipe Ret|Dudu|Xamã|Orochi|Maquiny|Pineapple StormTv,2,0645eBDehHcqfiF15hscQV,"Janiye (from the Netflix Film ""Chor Nikal Ke Bhaga"")",Vishal Mishra|Rashmeet Kaur,singlestage,
-5JC2ezFSbkVi4Js4byzKoj,Poesia Acústica #6 Era uma Vez,MC Cabelinho|Bob do Contra|Azzy|Filipe Ret|Dudu|Xamã|Orochi|Maquiny|Pineapple StormTv,9,2HbmLkHkkI15eES8kpWRuI,Ven Devórame Otra Vez,Lalo Rodriguez,singlestage,
-5JC2ezFSbkVi4Js4byzKoj,Poesia Acústica #6 Era uma Vez,MC Cabelinho|Bob do Contra|Azzy|Filipe Ret|Dudu|Xamã|Orochi|Maquiny|Pineapple StormTv,6,4UHRMwbbiZ7tkeEkhyN7iB,Persona Ideal - Me Tengo Que Ir,Adolescent's Orquesta,singlestage,
-5JC2ezFSbkVi4Js4byzKoj,Poesia Acústica #6 Era uma Vez,MC Cabelinho|Bob do Contra|Azzy|Filipe Ret|Dudu|Xamã|Orochi|Maquiny|Pineapple StormTv,2,0zxj7dVhYZq5ACyaDx5XIo,Layla - Acoustic Live,Eric Clapton,twostage,
-5JC2ezFSbkVi4Js4byzKoj,Poesia Acústica #6 Era uma Vez,MC Cabelinho|Bob do Contra|Azzy|Filipe Ret|Dudu|Xamã|Orochi|Maquiny|Pineapple StormTv,4,28LgPbNAuQOYOcdoJzaGGP,Lej kto rrena,Butrint Imeri,singlestage,
-5JC2ezFSbkVi4Js4byzKoj,Poesia Acústica #6 Era uma Vez,MC Cabelinho|Bob do Contra|Azzy|Filipe Ret|Dudu|Xamã|Orochi|Maquiny|Pineapple StormTv,9,4ENgK9ehJ9PxxrjY2iEH1j,Chandelier,Will Paquin,twostage,
-5JC2ezFSbkVi4Js4byzKoj,Poesia Acústica #6 Era uma Vez,MC Cabelinho|Bob do Contra|Azzy|Filipe Ret|Dudu|Xamã|Orochi|Maquiny|Pineapple StormTv,7,006pMMCuRo2TFjh8sNGSov,"Dias De Luta, Dias De Gloria",Charlie Brown Jr.,twostage,
-5JC2ezFSbkVi4Js4byzKoj,Poesia Acústica #6 Era uma Vez,MC Cabelinho|Bob do Contra|Azzy|Filipe Ret|Dudu|Xamã|Orochi|Maquiny|Pineapple StormTv,4,3bxZhauuIU4ubctdRZwPYW,Chan Chan,Buena Vista Social Club,twostage,
-5JC2ezFSbkVi4Js4byzKoj,Poesia Acústica #6 Era uma Vez,MC Cabelinho|Bob do Contra|Azzy|Filipe Ret|Dudu|Xamã|Orochi|Maquiny|Pineapple StormTv,3,30ga1gIdpg6M6ZshWo7YgC,PPC,ROA|Hades66,singlestage,
-5JC2ezFSbkVi4Js4byzKoj,Poesia Acústica #6 Era uma Vez,MC Cabelinho|Bob do Contra|Azzy|Filipe Ret|Dudu|Xamã|Orochi|Maquiny|Pineapple StormTv,10,0W2pF7zyj9dwZVK1RoUyjh,WYA REMIX BLACK AND YELLOW (feat. iZaak & Pirlo),J Abdiel|Anuel AA|Blessd|iZaak|Pirlo,singlestage,
-5JC2ezFSbkVi4Js4byzKoj,Poesia Acústica #6 Era uma Vez,MC Cabelinho|Bob do Contra|Azzy|Filipe Ret|Dudu|Xamã|Orochi|Maquiny|Pineapple StormTv,10,54udnumOCHpq4SRpbKleat,1004 KM,Junior H,twostage,
-5JC2ezFSbkVi4Js4byzKoj,Poesia Acústica #6 Era uma Vez,MC Cabelinho|Bob do Contra|Azzy|Filipe Ret|Dudu|Xamã|Orochi|Maquiny|Pineapple StormTv,5,35ttE4t8lQZA2vuCYDg4G7,M.A.I,Milo j,singlestage,
-5JC2ezFSbkVi4Js4byzKoj,Poesia Acústica #6 Era uma Vez,MC Cabelinho|Bob do Contra|Azzy|Filipe Ret|Dudu|Xamã|Orochi|Maquiny|Pineapple StormTv,3,0645eBDehHcqfiF15hscQV,"Janiye (from the Netflix Film ""Chor Nikal Ke Bhaga"")",Vishal Mishra|Rashmeet Kaur,twostage,
-5JC2ezFSbkVi4Js4byzKoj,Poesia Acústica #6 Era uma Vez,MC Cabelinho|Bob do Contra|Azzy|Filipe Ret|Dudu|Xamã|Orochi|Maquiny|Pineapple StormTv,8,1whs2eO84P6NRtmDQN2YTl,arena,Beéle|Carla Morrison,singlestage,
-5JC2ezFSbkVi4Js4byzKoj,Poesia Acústica #6 Era uma Vez,MC Cabelinho|Bob do Contra|Azzy|Filipe Ret|Dudu|Xamã|Orochi|Maquiny|Pineapple StormTv,1,1vKXtNEKU9fegCsHt9LQPD,LA TORTURA,Milo j|Cerounno,twostage,
-5JC2ezFSbkVi4Js4byzKoj,Poesia Acústica #6 Era uma Vez,MC Cabelinho|Bob do Contra|Azzy|Filipe Ret|Dudu|Xamã|Orochi|Maquiny|Pineapple StormTv,5,62KZRwymXq9Rgm8Cm5UCfx,The World We Knew (Over And Over),Frank Sinatra,twostage,
-5JC2ezFSbkVi4Js4byzKoj,Poesia Acústica #6 Era uma Vez,MC Cabelinho|Bob do Contra|Azzy|Filipe Ret|Dudu|Xamã|Orochi|Maquiny|Pineapple StormTv,7,1OubIZ0ARYCUq5kceYUQiO,Congratulations (feat. Bilal),Mac Miller|Bilal,singlestage,
-0iO2iCAjtX0t5duvczNQt6,Oscar Winning Tears.,RAYE,1,73ZlmJxexVebFozgZhEhkd,O Children,Nick Cave & The Bad Seeds,singlestage,
-0iO2iCAjtX0t5duvczNQt6,Oscar Winning Tears.,RAYE,8,0c8K5IUrmVlieC0Fc0d8tV,Mr. Forgettable,David Kushner,twostage,
-0iO2iCAjtX0t5duvczNQt6,Oscar Winning Tears.,RAYE,6,2JN3ugW1cEahbYw0I5mw5U,Astronomy,Conan Gray,twostage,
-0iO2iCAjtX0t5duvczNQt6,Oscar Winning Tears.,RAYE,2,2Bi7IhhjS7ZgzSe7FMaHs1,wunderschön,Zartmann,singlestage,
-0iO2iCAjtX0t5duvczNQt6,Oscar Winning Tears.,RAYE,9,057YRaQ57p70MVg4hMIIkB,Камин (feat. JONY),EMIN|JONY,singlestage,
-0iO2iCAjtX0t5duvczNQt6,Oscar Winning Tears.,RAYE,6,1HYzRuWjmS9LXCkdVHi25K,Stay With Me,CHANYEOL|Punch,singlestage,
-0iO2iCAjtX0t5duvczNQt6,Oscar Winning Tears.,RAYE,2,17cia5k4BpGVlyEfqrFH50,Can’t Catch Me Now - from The Hunger Games: The Ballad of Songbirds & Snakes,Olivia Rodrigo,twostage,
-0iO2iCAjtX0t5duvczNQt6,Oscar Winning Tears.,RAYE,4,2f8sB9lQ6Uh1lKKWJNR9rW,Manos de Tijera,Camilo,singlestage,
-0iO2iCAjtX0t5duvczNQt6,Oscar Winning Tears.,RAYE,9,4XTgFBxBHN6var1BzAgE1m,Jhol,Maanu|Annural Khalid,twostage,
-0iO2iCAjtX0t5duvczNQt6,Oscar Winning Tears.,RAYE,7,2ZRo7axmMPeSVUvDbGkJah,Hope,XXXTENTACION,twostage,
-0iO2iCAjtX0t5duvczNQt6,Oscar Winning Tears.,RAYE,4,14vcO1XwnWzz4RJnUAQSkW,LA CUEVA,Cazzu,twostage,
-0iO2iCAjtX0t5duvczNQt6,Oscar Winning Tears.,RAYE,3,0sSRLXxknVTQDStgU1NqpY,Hours In Silence,Drake|21 Savage,singlestage,
-0iO2iCAjtX0t5duvczNQt6,Oscar Winning Tears.,RAYE,10,4qTGOuXmoR7fk7dApMlQjG,Get in the Water,Jorge Rivera-Herrans|Steven Rodriguez|Steven Dookie|Armando Julián|Wanda Herrans|Cast of EPIC: The Musical,singlestage,
-0iO2iCAjtX0t5duvczNQt6,Oscar Winning Tears.,RAYE,10,4S2uhQE8L9V6p7rj7SiauJ,Suicidal (feat. Juice WRLD) - Remix,YNW Melly|Juice WRLD,twostage,
-0iO2iCAjtX0t5duvczNQt6,Oscar Winning Tears.,RAYE,5,2FbGlEPAjNhWvrVvlentVq,Cameras / Good Ones Go Interlude - Medley,Drake,singlestage,
-0iO2iCAjtX0t5duvczNQt6,Oscar Winning Tears.,RAYE,3,2nejvFyJeTDtMRP2nUMt0J,Abrázame Muy Fuerte,Juan Gabriel,twostage,
-0iO2iCAjtX0t5duvczNQt6,Oscar Winning Tears.,RAYE,8,0W2pF7zyj9dwZVK1RoUyjh,WYA REMIX BLACK AND YELLOW (feat. iZaak & Pirlo),J Abdiel|Anuel AA|Blessd|iZaak|Pirlo,singlestage,
-0iO2iCAjtX0t5duvczNQt6,Oscar Winning Tears.,RAYE,1,1YZOcaGiN1cCwANvG3Ib9G,Nostalgia,Tate McRae,twostage,
-0iO2iCAjtX0t5duvczNQt6,Oscar Winning Tears.,RAYE,5,3a3dQOO19moXPeTt2PomoT,What You Heard,Sonder,twostage,
-0iO2iCAjtX0t5duvczNQt6,Oscar Winning Tears.,RAYE,7,17cia5k4BpGVlyEfqrFH50,Can’t Catch Me Now - from The Hunger Games: The Ballad of Songbirds & Snakes,Olivia Rodrigo,singlestage,
-6wZOZ0votPhc8qdg4UFPtH,dandelion,Ariana Grande,1,0SCIwbS0Q4etwJmDyNjHaQ,Diamond Boy (DTM),SZA,singlestage,
-6wZOZ0votPhc8qdg4UFPtH,dandelion,Ariana Grande,8,6LxSe8YmdPxy095Ux6znaQ,Headlines,Drake,twostage,
-6wZOZ0votPhc8qdg4UFPtH,dandelion,Ariana Grande,6,3ym8ajVmKm6Fybgov3WBI5,Let Me Go,Daniel Caesar,twostage,
-6wZOZ0votPhc8qdg4UFPtH,dandelion,Ariana Grande,2,23d8v6tU6lR77pFKsApMtF,NADIE SABE,Bad Bunny,singlestage,
-6wZOZ0votPhc8qdg4UFPtH,dandelion,Ariana Grande,9,1Sym1HsTqsa2pYKhYL1j15,Me Gustas Natural,Eladio Carrion|Rels B,singlestage,
-6wZOZ0votPhc8qdg4UFPtH,dandelion,Ariana Grande,6,2MjQmsRAUArE2GDwjsVew3,GREEDY,PARTYNEXTDOOR|Drake,singlestage,
-6wZOZ0votPhc8qdg4UFPtH,dandelion,Ariana Grande,2,5expoVGQPvXuwBBFuNGqBd,Hurt,NewJeans,twostage,
-6wZOZ0votPhc8qdg4UFPtH,dandelion,Ariana Grande,4,465lkwZP4ZXzWqZq4kOhgW,La Verdad,Kidd Voodoo|Resonancia Etérea,singlestage,
-6wZOZ0votPhc8qdg4UFPtH,dandelion,Ariana Grande,9,0UZLaEOSIc5kg0cc7eszqC,Manjha,Vishal Mishra,twostage,
-6wZOZ0votPhc8qdg4UFPtH,dandelion,Ariana Grande,7,6y6jbcPG4Yn3Du4moXaenr,idfc,blackbear,twostage,
-6wZOZ0votPhc8qdg4UFPtH,dandelion,Ariana Grande,4,18HOjcvTVV7W8YzBuOsAPS,Un Verano Sin Ti,Bad Bunny,twostage,
-6wZOZ0votPhc8qdg4UFPtH,dandelion,Ariana Grande,3,3aSWXU6owkZeVhh94XxEWO,30 For 30 (with Kendrick Lamar),SZA|Kendrick Lamar,singlestage,
-6wZOZ0votPhc8qdg4UFPtH,dandelion,Ariana Grande,10,3Z0oQ8r78OUaHvGPiDBR3W,Into the Unknown,Idina Menzel|AURORA,singlestage,
-6wZOZ0votPhc8qdg4UFPtH,dandelion,Ariana Grande,10,2DXK0YNGSqnaIEX5iaSIoK,RELOJ,Peso Pluma|Ivan Cornejo,twostage,
-6wZOZ0votPhc8qdg4UFPtH,dandelion,Ariana Grande,5,4mVhmpRtHuzMFJlU3an4eG,LICHTER AUS,makko|Miksu / Macloud,singlestage,
-6wZOZ0votPhc8qdg4UFPtH,dandelion,Ariana Grande,3,5mjYQaktjmjcMKcUIcqz4s,Strangers,Kenya Grace,twostage,
-6wZOZ0votPhc8qdg4UFPtH,dandelion,Ariana Grande,8,7g8YaUQABMal0zWe7a2ijz,Pa Mí - Remix,Dalex|Rafa Pabön|KHEA|Sech|Feid|Cazzu|Lenny Tavárez,singlestage,
-6wZOZ0votPhc8qdg4UFPtH,dandelion,Ariana Grande,1,26QApq0cuO9brJigr0C0W4,HACIENDO QUE ME AMAS,Bad Bunny,twostage,
-6wZOZ0votPhc8qdg4UFPtH,dandelion,Ariana Grande,5,0y1QJc3SJVPKJ1OvFmFqe6,Way down We Go,KALEO,twostage,
-6wZOZ0votPhc8qdg4UFPtH,dandelion,Ariana Grande,7,4e0FYxSROat25pH16zMTZI,Love Me,Lil Tecca,singlestage,
+7A07Yu1dRND3RKDzbhKrDs,Fuerte No Soy,Intocable,1,4djS8o4kW0kiETtvkLJN2F,Tu Dama De Hierro,Marisela,singlestage,3.0
+7A07Yu1dRND3RKDzbhKrDs,Fuerte No Soy,Intocable,8,7BgyWwbbybJr2IbQoI1gzH,Stevie Doesn't Wonder,Hotel Ugly,twostage,1.0
+7A07Yu1dRND3RKDzbhKrDs,Fuerte No Soy,Intocable,6,3aQ9MHkMeL7Yu7jpyF62xn,Neverender,Justice|Tame Impala,twostage,1.0
+7A07Yu1dRND3RKDzbhKrDs,Fuerte No Soy,Intocable,2,36w8f4Cl7JqTbFDamAdq8Q,Wie?,AYLIVA,singlestage,1.0
+7A07Yu1dRND3RKDzbhKrDs,Fuerte No Soy,Intocable,9,54gaPLcsCWmPUmrgpib9mS,Ahí Estaré Yo,Los Temerarios,singlestage,3.0
+7A07Yu1dRND3RKDzbhKrDs,Fuerte No Soy,Intocable,6,1iSqfoUFnQwV0QW1EfUit8,Suicidal,YNW Melly,singlestage,0.0
+7A07Yu1dRND3RKDzbhKrDs,Fuerte No Soy,Intocable,2,3l3xTXsUXeWlkPqzMs7mPD,End Of The Road,Boyz II Men,twostage,2.0
+7A07Yu1dRND3RKDzbhKrDs,Fuerte No Soy,Intocable,4,2Ch7LmS7r2Gy2kc64wv3Bz,Die For You,The Weeknd,singlestage,1.0
+7A07Yu1dRND3RKDzbhKrDs,Fuerte No Soy,Intocable,9,2J4qy8RyfwgXHt73cWOE6P,Fría Como El Viento,Luis Miguel,twostage,3.0
+7A07Yu1dRND3RKDzbhKrDs,Fuerte No Soy,Intocable,7,5EfHXTq8UPCFyPDvCNIKMm,Kumbala,Maldita Vecindad Y Los Hijos Del 5to. Patio,twostage,2.0
+7A07Yu1dRND3RKDzbhKrDs,Fuerte No Soy,Intocable,4,0e3yhVeNaTfKIWQRw9U9sY,Sacrifice,Elton John,twostage,2.0
+7A07Yu1dRND3RKDzbhKrDs,Fuerte No Soy,Intocable,3,3l3xTXsUXeWlkPqzMs7mPD,End Of The Road,Boyz II Men,singlestage,2.0
+7A07Yu1dRND3RKDzbhKrDs,Fuerte No Soy,Intocable,10,3dP0pLbg9OfVwssDjp9aT0,Satisfied,Renée Elise Goldsberry|Original Broadway Cast of Hamilton,singlestage,1.0
+7A07Yu1dRND3RKDzbhKrDs,Fuerte No Soy,Intocable,10,4djS8o4kW0kiETtvkLJN2F,Tu Dama De Hierro,Marisela,twostage,3.0
+7A07Yu1dRND3RKDzbhKrDs,Fuerte No Soy,Intocable,5,2LBqCSwhJGcFQeTHMVGwy3,Die For You,The Weeknd,singlestage,1.0
+7A07Yu1dRND3RKDzbhKrDs,Fuerte No Soy,Intocable,3,7CHi4DtfK4heMlQaudCuHK,Lose Control,MEDUZA|Becky Hill|Goodboys,twostage,0.0
+7A07Yu1dRND3RKDzbhKrDs,Fuerte No Soy,Intocable,8,1CpICQpUz3ZrHcJs84oAbH,REGALO DE DIOS,Gabito Ballesteros|Carin Leon,singlestage,3.0
+7A07Yu1dRND3RKDzbhKrDs,Fuerte No Soy,Intocable,1,1JQ6Xm1JrvHfvAqhl5pwaA,Easy,Commodores,twostage,3.0
+7A07Yu1dRND3RKDzbhKrDs,Fuerte No Soy,Intocable,5,5BUq9bdtsm3LWw5laJeJ4R,Hopelessly Devoted To You - From “Grease”,Olivia Newton-John,twostage,2.0
+7A07Yu1dRND3RKDzbhKrDs,Fuerte No Soy,Intocable,7,34hM4PLlhyBysgL50IWdHf,Y Tú Te Vas,Chayanne,singlestage,3.0
+5HNCy40Ni5BZJFw1TKzRsC,Comfortably Numb,Pink Floyd,1,5GbVzc6Ex5LYlLJqzRQhuy,Mystery of Love,Sufjan Stevens,singlestage,2.0
+5HNCy40Ni5BZJFw1TKzRsC,Comfortably Numb,Pink Floyd,8,0z1o5L7HJx562xZSATcIpY,Exit Music (For A Film),Radiohead,twostage,2.0
+5HNCy40Ni5BZJFw1TKzRsC,Comfortably Numb,Pink Floyd,6,492ceDtqmafb6QD1Xfhpmo,Like a Prayer - Choir Version From “Deadpool & Wolverine”,I'll Take You There Choir,twostage,1.0
+5HNCy40Ni5BZJFw1TKzRsC,Comfortably Numb,Pink Floyd,2,2LKOHdMsL0K9KwcPRlJK2v,After Dark,Mr.Kitty,singlestage,1.0
+5HNCy40Ni5BZJFw1TKzRsC,Comfortably Numb,Pink Floyd,9,492ceDtqmafb6QD1Xfhpmo,Like a Prayer - Choir Version From “Deadpool & Wolverine”,I'll Take You There Choir,singlestage,1.0
+5HNCy40Ni5BZJFw1TKzRsC,Comfortably Numb,Pink Floyd,6,329PAO2XpurUBEWszXKG5K,Miss You,Nu Aspect|Jamis|Poppy Baskcomb,singlestage,1.0
+5HNCy40Ni5BZJFw1TKzRsC,Comfortably Numb,Pink Floyd,2,2ctvdKmETyOzPb2GiJJT53,Breathe (In the Air),Pink Floyd,twostage,3.0
+5HNCy40Ni5BZJFw1TKzRsC,Comfortably Numb,Pink Floyd,4,2rtGaCAeYtmcIvuZsvgTf6,How to Disappear Completely,Radiohead,singlestage,2.0
+5HNCy40Ni5BZJFw1TKzRsC,Comfortably Numb,Pink Floyd,9,5cbI0HJrTDb0njDk653bcN,Goth (Slowed + Reverb),Sidewalks and Skeletons,twostage,1.0
+5HNCy40Ni5BZJFw1TKzRsC,Comfortably Numb,Pink Floyd,7,79x7xtoCLpf6l32Zz6mWo4,BOKeTE,Bad Bunny,twostage,1.0
+5HNCy40Ni5BZJFw1TKzRsC,Comfortably Numb,Pink Floyd,4,2QwObYJWyJTiozvs0RI7CF,Street Spirit (Fade Out),Radiohead,twostage,3.0
+5HNCy40Ni5BZJFw1TKzRsC,Comfortably Numb,Pink Floyd,3,79x7xtoCLpf6l32Zz6mWo4,BOKeTE,Bad Bunny,singlestage,1.0
+5HNCy40Ni5BZJFw1TKzRsC,Comfortably Numb,Pink Floyd,10,2lTm559tuIvatlT1u0JYG2,BAILE INoLVIDABLE,Bad Bunny,singlestage,1.0
+5HNCy40Ni5BZJFw1TKzRsC,Comfortably Numb,Pink Floyd,10,2EqlS6tkEnglzr7tkKAAYD,Come Together - Remastered 2009,The Beatles,twostage,2.0
+5HNCy40Ni5BZJFw1TKzRsC,Comfortably Numb,Pink Floyd,5,3hxIUxnT27p5WcmjGUXNwx,Shut up My Moms Calling,Hotel Ugly,singlestage,2.0
+5HNCy40Ni5BZJFw1TKzRsC,Comfortably Numb,Pink Floyd,3,2rtGaCAeYtmcIvuZsvgTf6,How to Disappear Completely,Radiohead,twostage,2.0
+5HNCy40Ni5BZJFw1TKzRsC,Comfortably Numb,Pink Floyd,8,2fQwoYSzWzChmIB2zZwrGL,Remember Me (from the series Arcane League of Legends),Arcane|d4vd,singlestage,2.0
+5HNCy40Ni5BZJFw1TKzRsC,Comfortably Numb,Pink Floyd,1,0qSnORtqjEXLFKKKSy9WMc,Beanie - Slowed,Chezile,twostage,1.0
+5HNCy40Ni5BZJFw1TKzRsC,Comfortably Numb,Pink Floyd,5,7n3WO6ESKS1uCI9fgkGs66,I'd Love to Change the World - 2004 Remaster,Ten Years After,twostage,2.0
+5HNCy40Ni5BZJFw1TKzRsC,Comfortably Numb,Pink Floyd,7,2FZIabCRMEWAYfN69Ijn1U,homesick,wave to earth,singlestage,2.0
+2ajUl8lBLAXOXNpG4NEPMz,Sway,Michael Bublé,1,0NQyryTVbjGMtWMA1eSqIn,Resenha do Arrocha,J. Eskine|Alef Donk,singlestage,1.0
+2ajUl8lBLAXOXNpG4NEPMz,Sway,Michael Bublé,8,3OLFqbd9ZeVjaUKTiaLsD6,Tu Hi Haqeeqat,Pritam|Javed Ali|Irshan Ashraf|Shadab,twostage,1.0
+2ajUl8lBLAXOXNpG4NEPMz,Sway,Michael Bublé,6,0NQyryTVbjGMtWMA1eSqIn,Resenha do Arrocha,J. Eskine|Alef Donk,twostage,1.0
+2ajUl8lBLAXOXNpG4NEPMz,Sway,Michael Bublé,2,3dnP0JxCgygwQH9Gm7q7nb,Ella Baila Sola,Eslabon Armado|Peso Pluma,singlestage,2.0
+2ajUl8lBLAXOXNpG4NEPMz,Sway,Michael Bublé,9,293mQGfVwgXIOdA1GpiwAt,Love & War,Kodak Black,singlestage,0.0
+2ajUl8lBLAXOXNpG4NEPMz,Sway,Michael Bublé,6,4GUphFvzqaCHPDkS2VDn2I,Tunggu Apa Lagi,Nyoman Paul,singlestage,1.0
+2ajUl8lBLAXOXNpG4NEPMz,Sway,Michael Bublé,2,2dy3TKVDEbIeWxeIb8JWqZ,La Mejor Versión de Mi - Remix,NATTI NATASHA|Romeo Santos,twostage,1.0
+2ajUl8lBLAXOXNpG4NEPMz,Sway,Michael Bublé,4,2zLLGT8WWT1dl73TlVL9qs,Mariposa Traicionera - 2020 Remasterizado,Maná,singlestage,1.0
+2ajUl8lBLAXOXNpG4NEPMz,Sway,Michael Bublé,9,2k0D2OXWXwuwBPXLQQYmZx,Dost Banke,Gurnazar|Rahat Fateh Ali Khan|Kartik Dev,twostage,1.0
+2ajUl8lBLAXOXNpG4NEPMz,Sway,Michael Bublé,7,0QCTjU9xOvdDfe9LXEmxeT,El Amor De Mi Herida,Carin Leon,twostage,1.0
+2ajUl8lBLAXOXNpG4NEPMz,Sway,Michael Bublé,4,71vWRlfHefIMtoDnUPtXcf,Vanilla,VEN1|Ramos.,twostage,0.0
+2ajUl8lBLAXOXNpG4NEPMz,Sway,Michael Bublé,3,6bK9BH9Ts8Gj5JFvnQkzak,Get Busy,Sean Paul,singlestage,1.0
+2ajUl8lBLAXOXNpG4NEPMz,Sway,Michael Bublé,10,2XU0oxnq2qxCpomAAuJY8K,Dance Monkey,Tones And I,singlestage,1.0
+2ajUl8lBLAXOXNpG4NEPMz,Sway,Michael Bublé,10,5jVExEArvISIYu8mamVgfV,LA DURANGO,Peso Pluma|Junior H|Eslabon Armado,twostage,2.0
+2ajUl8lBLAXOXNpG4NEPMz,Sway,Michael Bublé,5,01vHGJRvJ6EZW9KO8NtZpi,"Un Polvo (feat. Bad Bunny, Arcángel, Ñengo Flow & De La Ghetto)",Maluma|Bad Bunny|Arcángel|Ñengo Flow|De La Ghetto,singlestage,0.0
+2ajUl8lBLAXOXNpG4NEPMz,Sway,Michael Bublé,3,5ZK62nSchTamBy8F6HIZov,Sea Gets Hotter,Durand Jones & The Indications|Durand Jones|Aaron Frazer,twostage,2.0
+2ajUl8lBLAXOXNpG4NEPMz,Sway,Michael Bublé,8,3Kl8p2PxVf8eAayLwTxOIm,Dil Ibaadat,Pritam|KK,singlestage,1.0
+2ajUl8lBLAXOXNpG4NEPMz,Sway,Michael Bublé,1,0muI8DpTEpLqqibPm3sKYf,Te Extraño - Bachata Version,Xtreme,twostage,1.0
+2ajUl8lBLAXOXNpG4NEPMz,Sway,Michael Bublé,5,4EbAftNM732UGLF8gmIIsX,Mi Santa (feat. Tomatito),Romeo Santos|Tomatito,twostage,1.0
+2ajUl8lBLAXOXNpG4NEPMz,Sway,Michael Bublé,7,0o5p5zzRN84q6qVbOVONPM,MEET YOUR PADRE,PARTYNEXTDOOR|Drake|Chino Pacas,singlestage,0.0
+2ZRo7axmMPeSVUvDbGkJah,Hope,XXXTENTACION,1,4b7vk8SRcYgnxpk0JOIS7r,Drugs You Should Try It,Travis Scott,singlestage,1.0
+2ZRo7axmMPeSVUvDbGkJah,Hope,XXXTENTACION,8,4b7vk8SRcYgnxpk0JOIS7r,Drugs You Should Try It,Travis Scott,twostage,1.0
+2ZRo7axmMPeSVUvDbGkJah,Hope,XXXTENTACION,6,057YRaQ57p70MVg4hMIIkB,Камин (feat. JONY),EMIN|JONY,twostage,1.0
+2ZRo7axmMPeSVUvDbGkJah,Hope,XXXTENTACION,2,7eJMfftS33KTjuF7lTsMCx,death bed (coffee for your head),Powfu|beabadoobee,singlestage,1.0
+2ZRo7axmMPeSVUvDbGkJah,Hope,XXXTENTACION,9,17cia5k4BpGVlyEfqrFH50,Can’t Catch Me Now - from The Hunger Games: The Ballad of Songbirds & Snakes,Olivia Rodrigo,singlestage,1.0
+2ZRo7axmMPeSVUvDbGkJah,Hope,XXXTENTACION,6,0EA40dd5ghMqemzoqWvo3E,Sin miedo a nada (feat. Amaia Montero),Alex Ubago|Amaia Montero,singlestage,0.0
+2ZRo7axmMPeSVUvDbGkJah,Hope,XXXTENTACION,2,4S2uhQE8L9V6p7rj7SiauJ,Suicidal (feat. Juice WRLD) - Remix,YNW Melly|Juice WRLD,twostage,2.0
+2ZRo7axmMPeSVUvDbGkJah,Hope,XXXTENTACION,4,2ZWlPOoWh0626oTaHrnl2a,Ivy,Frank Ocean,singlestage,1.0
+2ZRo7axmMPeSVUvDbGkJah,Hope,XXXTENTACION,9,14vcO1XwnWzz4RJnUAQSkW,LA CUEVA,Cazzu,twostage,1.0
+2ZRo7axmMPeSVUvDbGkJah,Hope,XXXTENTACION,7,2nejvFyJeTDtMRP2nUMt0J,Abrázame Muy Fuerte,Juan Gabriel,twostage,0.0
+2ZRo7axmMPeSVUvDbGkJah,Hope,XXXTENTACION,4,790xAaylcgzyKm40GM95Gl,missin something,Zach Templar,twostage,1.0
+2ZRo7axmMPeSVUvDbGkJah,Hope,XXXTENTACION,3,3WMj8moIAXJhHsyLaqIIHI,Something in the Orange,Zach Bryan,singlestage,1.0
+2ZRo7axmMPeSVUvDbGkJah,Hope,XXXTENTACION,10,1fDsrQ23eTAVFElUMaf38X,American Pie,Don McLean,singlestage,0.0
+2ZRo7axmMPeSVUvDbGkJah,Hope,XXXTENTACION,10,3YKptz29AsOlm7WAVnztBh,Kiss from a Rose,Seal,twostage,0.0
+2ZRo7axmMPeSVUvDbGkJah,Hope,XXXTENTACION,5,0SCIwbS0Q4etwJmDyNjHaQ,Diamond Boy (DTM),SZA,singlestage,1.0
+2ZRo7axmMPeSVUvDbGkJah,Hope,XXXTENTACION,3,7hDVYcQq6MxkdJGweuCtl9,ocean eyes,Billie Eilish,twostage,1.0
+2ZRo7axmMPeSVUvDbGkJah,Hope,XXXTENTACION,8,45ewyxF625HzqLCKgZU0tp,Apaga la luz,RØZ|Peso Pluma,singlestage,1.0
+2ZRo7axmMPeSVUvDbGkJah,Hope,XXXTENTACION,1,06u5LrUpbosQlQ1QJFhPpG,Drew Barrymore,SZA,twostage,2.0
+2ZRo7axmMPeSVUvDbGkJah,Hope,XXXTENTACION,5,17cia5k4BpGVlyEfqrFH50,Can’t Catch Me Now - from The Hunger Games: The Ballad of Songbirds & Snakes,Olivia Rodrigo,twostage,1.0
+2ZRo7axmMPeSVUvDbGkJah,Hope,XXXTENTACION,7,0qpdzfTxAkOREtvvGO5oew,Chill Baby,SZA,singlestage,1.0
+7pT6WSg4PCt4mr5ZFyUfsF,If We Have Each Other,Alec Benjamin,1,54pvEYFocTlvIAQOfXSjqV,Alone Again (Naturally),Gilbert O'Sullivan,singlestage,2.0
+7pT6WSg4PCt4mr5ZFyUfsF,If We Have Each Other,Alec Benjamin,8,2niUiaoJDCzNldW0pV66zb,Nunca Es Suficiente,Natalia Lafourcade,twostage,0.0
+7pT6WSg4PCt4mr5ZFyUfsF,If We Have Each Other,Alec Benjamin,6,4MsNwPBADIfVpQ9ZmXNc7B,Kervan,Bengü|Mustafa Ceceli,twostage,1.0
+7pT6WSg4PCt4mr5ZFyUfsF,If We Have Each Other,Alec Benjamin,2,4MsNwPBADIfVpQ9ZmXNc7B,Kervan,Bengü|Mustafa Ceceli,singlestage,1.0
+7pT6WSg4PCt4mr5ZFyUfsF,If We Have Each Other,Alec Benjamin,9,2m7Ev5rPlckRrn6HT2coGI,RETIRADA,Milo j,singlestage,0.0
+7pT6WSg4PCt4mr5ZFyUfsF,If We Have Each Other,Alec Benjamin,6,4f0aDk7HX37SfzerfznYlr,Lapada Dela - Ao Vivo,Grupo Menos É Mais|Matheus Fernandes,singlestage,0.0
+7pT6WSg4PCt4mr5ZFyUfsF,If We Have Each Other,Alec Benjamin,2,1OYHXCuHdzHjpHqHlY1g1r,Bad Luck,Zach Top,twostage,2.0
+7pT6WSg4PCt4mr5ZFyUfsF,If We Have Each Other,Alec Benjamin,4,6Y46tOTRhkBamosyuWa6YX,LA FAMA,ROSALÍA|The Weeknd,singlestage,0.0
+7pT6WSg4PCt4mr5ZFyUfsF,If We Have Each Other,Alec Benjamin,9,4f0aDk7HX37SfzerfznYlr,Lapada Dela - Ao Vivo,Grupo Menos É Mais|Matheus Fernandes,twostage,0.0
+7pT6WSg4PCt4mr5ZFyUfsF,If We Have Each Other,Alec Benjamin,7,1iEwyiSLAunPR6uouANE0O,El Perdedor,Maluma,twostage,0.0
+7pT6WSg4PCt4mr5ZFyUfsF,If We Have Each Other,Alec Benjamin,4,5ds1Hh3lo4JUF2vflqyayK,Manos de Tijera,Yiyo Sarante,twostage,1.0
+7pT6WSg4PCt4mr5ZFyUfsF,If We Have Each Other,Alec Benjamin,3,71AVxv9fJVgGpGZIGcxud3,Se Puso Linda,KAROL G,singlestage,1.0
+7pT6WSg4PCt4mr5ZFyUfsF,If We Have Each Other,Alec Benjamin,10,26QApq0cuO9brJigr0C0W4,HACIENDO QUE ME AMAS,Bad Bunny,singlestage,1.0
+7pT6WSg4PCt4mr5ZFyUfsF,If We Have Each Other,Alec Benjamin,10,7qchN9iUKSFijPsadG9m2w,Tera Ghata,Gajendra Verma,twostage,1.0
+7pT6WSg4PCt4mr5ZFyUfsF,If We Have Each Other,Alec Benjamin,5,0OBv4CEP5FKS19ZQGHAUM6,Fala na Cara,Mc Paiva ZS|DJ Ak beats|Love Funk,singlestage,0.0
+7pT6WSg4PCt4mr5ZFyUfsF,If We Have Each Other,Alec Benjamin,3,1A9PKAFEHMWgXNLpgf7k4J,Piensan,Myke Towers,twostage,0.0
+7pT6WSg4PCt4mr5ZFyUfsF,If We Have Each Other,Alec Benjamin,8,2fQrrBtuNVMWOHqLyk4EfO,Yo Todo Lo Doy,Alfredo Olivas,singlestage,0.0
+7pT6WSg4PCt4mr5ZFyUfsF,If We Have Each Other,Alec Benjamin,1,0mP1c16IbyvTQvNMYKZ3Mx,Cabron Yo Puedo,Grupo Origen,twostage,0.0
+7pT6WSg4PCt4mr5ZFyUfsF,If We Have Each Other,Alec Benjamin,5,54pvEYFocTlvIAQOfXSjqV,Alone Again (Naturally),Gilbert O'Sullivan,twostage,2.0
+7pT6WSg4PCt4mr5ZFyUfsF,If We Have Each Other,Alec Benjamin,7,26y2gBrbiFJIOUjIlSQfdH,Vida De Rock,Duki|Milo j,singlestage,0.0
+2WP8G2pdddDmnh1xbfKBOI,Finesse,Drake,1,4MbzauKV2ydtZZjLsPcuTF,Spread Thin,Mariah the Scientist,singlestage,2.0
+2WP8G2pdddDmnh1xbfKBOI,Finesse,Drake,8,6NFyWDv5CjfwuzoCkw47Xf,Delicate,Taylor Swift,twostage,1.0
+2WP8G2pdddDmnh1xbfKBOI,Finesse,Drake,6,4YZbVct8l9MnAVIROnLQdx,Forrest Gump,Frank Ocean,twostage,1.0
+2WP8G2pdddDmnh1xbfKBOI,Finesse,Drake,2,6C1RD7YQVvt3YQj0CmuTeu,Diles,Bad Bunny|Ozuna|Farruko|Arcángel|Ñengo Flow|DJ Luian|Mambo Kingz,singlestage,1.0
+2WP8G2pdddDmnh1xbfKBOI,Finesse,Drake,9,4ZOkfHC38nxSeSqzGE5HFr,PIÉNSALO,Junior H,singlestage,0.0
+2WP8G2pdddDmnh1xbfKBOI,Finesse,Drake,6,3pXF1nA74528Edde4of9CC,Don't,Bryson Tiller,singlestage,3.0
+2WP8G2pdddDmnh1xbfKBOI,Finesse,Drake,2,5lCMDnVpGTuFC7YejgpTIF,WYA,J Abdiel|iZaak,twostage,2.0
+2WP8G2pdddDmnh1xbfKBOI,Finesse,Drake,4,3eekarcy7kvN4yt5ZFzltW,HIGHEST IN THE ROOM,Travis Scott,singlestage,1.0
+2WP8G2pdddDmnh1xbfKBOI,Finesse,Drake,9,7t2bFihaDvhIrd2gn2CWJO,"Or Nah (feat. The Weeknd, Wiz Khalifa & DJ Mustard) - Remix",Ty Dolla $ign|The Weeknd|Wiz Khalifa|Mustard,twostage,1.0
+2WP8G2pdddDmnh1xbfKBOI,Finesse,Drake,7,1CpICQpUz3ZrHcJs84oAbH,REGALO DE DIOS,Gabito Ballesteros|Carin Leon,twostage,1.0
+2WP8G2pdddDmnh1xbfKBOI,Finesse,Drake,4,6n3HGiq4v35D6eFOSwqYuo,Teenage Fever,Drake,twostage,3.0
+2WP8G2pdddDmnh1xbfKBOI,Finesse,Drake,3,6NFyWDv5CjfwuzoCkw47Xf,Delicate,Taylor Swift,singlestage,1.0
+2WP8G2pdddDmnh1xbfKBOI,Finesse,Drake,10,7xYnUQigPoIDAMPVK79NEq,Run It! (feat. Juelz Santana),Chris Brown|Juelz Santana,singlestage,0.0
+2WP8G2pdddDmnh1xbfKBOI,Finesse,Drake,10,65uoaqX5qcjXZRheAj1qQT,Dernière danse,Indila,twostage,1.0
+2WP8G2pdddDmnh1xbfKBOI,Finesse,Drake,5,11ZulcYY4lowvcQm4oe3VJ,Slumber Party (feat. Princess Nokia),Ashnikko|Princess Nokia,singlestage,0.0
+2WP8G2pdddDmnh1xbfKBOI,Finesse,Drake,3,5Eax0qFko2dh7Rl2lYs3bx,Efecto,Bad Bunny,twostage,1.0
+2WP8G2pdddDmnh1xbfKBOI,Finesse,Drake,8,2tFwfmceQa1Y6nRPhYbEtC,CÓMO SE SIENTE - Remix,JHAYCO|Bad Bunny,singlestage,0.0
+2WP8G2pdddDmnh1xbfKBOI,Finesse,Drake,1,6jdOi5U5LBzQrc4c1VT983,"Hold On, We're Going Home",Drake|Majid Jordan,twostage,1.0
+2WP8G2pdddDmnh1xbfKBOI,Finesse,Drake,5,6HjYE79OOCGEhkIRfXLqrz,Damn Right (feat. Childish Gambino & Kali Uchis),JENNIE|Childish Gambino|Kali Uchis,twostage,2.0
+2WP8G2pdddDmnh1xbfKBOI,Finesse,Drake,7,62OO2X47vPk5WxTx68HDqg,BAMBOLA (feat. Niky Savage),Artie 5ive|Niky Savage,singlestage,0.0
+1RGasjWLZ4qMN7wbtkLa3u,my boy,Billie Eilish,1,14SaZBTjxlorHJQxXh01Hu,Girls Need Love (with Drake) - Remix,Summer Walker|Drake,singlestage,2.0
+1RGasjWLZ4qMN7wbtkLa3u,my boy,Billie Eilish,8,7vRriwrloYVaoAe3a9wJHe,"i hate u, i love u (feat. olivia o'brien)",gnash|Olivia O'Brien,twostage,1.0
+1RGasjWLZ4qMN7wbtkLa3u,my boy,Billie Eilish,6,4emEXP671dnpn1thHrogSe,Julieta,LATIN MAFIA,twostage,1.0
+1RGasjWLZ4qMN7wbtkLa3u,my boy,Billie Eilish,2,2mo4wJKJJR2lQCZYnTaI4Y,For Me (feat. Brent Faiyaz) - Remix,Loe Shimmy|Brent Faiyaz,singlestage,1.0
+1RGasjWLZ4qMN7wbtkLa3u,my boy,Billie Eilish,9,0l0vcZMU7AOeQmUIREoI2U,Qué Pasaría...,Rauw Alejandro|Bad Bunny,singlestage,0.0
+1RGasjWLZ4qMN7wbtkLa3u,my boy,Billie Eilish,6,6XHVuErjQ4XNm6nDPVCxVX,No Guidance (feat. Drake),Chris Brown|Drake,singlestage,0.0
+1RGasjWLZ4qMN7wbtkLa3u,my boy,Billie Eilish,2,3LmuxO8mh3wwIfRUqHJFFy,I'm The Man,50 Cent|Sonny Digital,twostage,0.0
+1RGasjWLZ4qMN7wbtkLa3u,my boy,Billie Eilish,4,32cwemsMJdzzsOYjVzfYMS,Mauvais Garçon,Helena,singlestage,3.0
+1RGasjWLZ4qMN7wbtkLa3u,my boy,Billie Eilish,9,2mo4wJKJJR2lQCZYnTaI4Y,For Me (feat. Brent Faiyaz) - Remix,Loe Shimmy|Brent Faiyaz,twostage,0.0
+1RGasjWLZ4qMN7wbtkLa3u,my boy,Billie Eilish,7,5hQSXkFgbxjZo9uCwd11so,False God,Taylor Swift,twostage,1.0
+1RGasjWLZ4qMN7wbtkLa3u,my boy,Billie Eilish,4,0AluA5RNsa4Cx6XRhf2hWZ,10 Freaky Girls (with 21 Savage),Metro Boomin|21 Savage,twostage,1.0
+1RGasjWLZ4qMN7wbtkLa3u,my boy,Billie Eilish,3,3pXF1nA74528Edde4of9CC,Don't,Bryson Tiller,singlestage,0.0
+1RGasjWLZ4qMN7wbtkLa3u,my boy,Billie Eilish,10,6yT1Qf1EKbUfiROeOWtzeN,Wenn der Himmel weint,Bausa|Jazeek,singlestage,0.0
+1RGasjWLZ4qMN7wbtkLa3u,my boy,Billie Eilish,10,1QPreu0BNOrUfEb8HTd2qG,Rich Spirit,Kendrick Lamar,twostage,1.0
+1RGasjWLZ4qMN7wbtkLa3u,my boy,Billie Eilish,5,7vRriwrloYVaoAe3a9wJHe,"i hate u, i love u (feat. olivia o'brien)",gnash|Olivia O'Brien,singlestage,1.0
+1RGasjWLZ4qMN7wbtkLa3u,my boy,Billie Eilish,3,5AH31dDNgxCMGDdxubNNn4,NEL,Fuerza Regida,twostage,0.0
+1RGasjWLZ4qMN7wbtkLa3u,my boy,Billie Eilish,8,3JA9Jsuxr4xgHXEawAdCp4,Just Can’t Get Enough,Black Eyed Peas,singlestage,0.0
+1RGasjWLZ4qMN7wbtkLa3u,my boy,Billie Eilish,1,14SaZBTjxlorHJQxXh01Hu,Girls Need Love (with Drake) - Remix,Summer Walker|Drake,twostage,2.0
+1RGasjWLZ4qMN7wbtkLa3u,my boy,Billie Eilish,5,3l5VjEAeUTqrlD50iEo8Yn,Licor 43,KayBlack|CVSTRO|Wall Hein|AMUSIK,twostage,1.0
+1RGasjWLZ4qMN7wbtkLa3u,my boy,Billie Eilish,7,285pBltuF7vW8TeWk8hdRR,Lucid Dreams,Juice WRLD,singlestage,1.0
+0pAiyIHt9DyHOjWgF41kp6,Steal,Maribou State|Holly Walker,1,0uQhDYHyoZe5DpncrPolb6,LAS NOCHES,Junior H,singlestage,0.0
+0pAiyIHt9DyHOjWgF41kp6,Steal,Maribou State|Holly Walker,8,1TEL6MlSSVLSdhOSddidlJ,needy,Ariana Grande,twostage,1.0
+0pAiyIHt9DyHOjWgF41kp6,Steal,Maribou State|Holly Walker,6,51rPRW8NjxZoWPPjnRGzHw,Tadow,Masego|FKJ,twostage,1.0
+0pAiyIHt9DyHOjWgF41kp6,Steal,Maribou State|Holly Walker,2,3elpkpwYlmUbuvmVps08lJ,Te Ire A Buscar,Santa Fe Klan|Nanpa Básico,singlestage,0.0
+0pAiyIHt9DyHOjWgF41kp6,Steal,Maribou State|Holly Walker,9,3f0wz6zcA7XkQiGm0qNF5r,"Thodi Jagah (From ""Marjaavaan"")",Arijit Singh|Tanishk Bagchi|Rashmi Virag,singlestage,0.0
+0pAiyIHt9DyHOjWgF41kp6,Steal,Maribou State|Holly Walker,6,2Yy0FsAV2I5VXU4xpph2WN,Stay,Rihanna|Mikky Ekko,singlestage,1.0
+0pAiyIHt9DyHOjWgF41kp6,Steal,Maribou State|Holly Walker,2,4fY3eujPNFdOrrCzVPCsoQ,Who are you?,Saga Faye,twostage,0.0
+0pAiyIHt9DyHOjWgF41kp6,Steal,Maribou State|Holly Walker,4,6yA2GnuThv4oDuEimu4Rmg,MAYBE.,SIENNA SPIRO,singlestage,1.0
+0pAiyIHt9DyHOjWgF41kp6,Steal,Maribou State|Holly Walker,9,4NYwy0R3NdvORX2B6OZXBT,Slow Motion,Trey Songz,twostage,0.0
+0pAiyIHt9DyHOjWgF41kp6,Steal,Maribou State|Holly Walker,7,7nSataGo54Le0IfcFQCFLN,Love Love,Gilsons,twostage,2.0
+0pAiyIHt9DyHOjWgF41kp6,Steal,Maribou State|Holly Walker,4,3f0wz6zcA7XkQiGm0qNF5r,"Thodi Jagah (From ""Marjaavaan"")",Arijit Singh|Tanishk Bagchi|Rashmi Virag,twostage,0.0
+0pAiyIHt9DyHOjWgF41kp6,Steal,Maribou State|Holly Walker,3,11BAVEGi1ivJ6JWLqKUNrZ,Catch & Release - Deepend Remix,Matt Simons|Deepend,singlestage,2.0
+0pAiyIHt9DyHOjWgF41kp6,Steal,Maribou State|Holly Walker,10,1whs2eO84P6NRtmDQN2YTl,arena,Beéle|Carla Morrison,singlestage,0.0
+0pAiyIHt9DyHOjWgF41kp6,Steal,Maribou State|Holly Walker,10,1NCuYqMc8hKMb4cpNTcJbD,Another Day in Paradise - 2016 Remaster,Phil Collins,twostage,1.0
+0pAiyIHt9DyHOjWgF41kp6,Steal,Maribou State|Holly Walker,5,0YywjDvFudcaHG74NuWISy,People Help the People,Birdy,singlestage,1.0
+0pAiyIHt9DyHOjWgF41kp6,Steal,Maribou State|Holly Walker,3,0uQhDYHyoZe5DpncrPolb6,LAS NOCHES,Junior H,twostage,0.0
+0pAiyIHt9DyHOjWgF41kp6,Steal,Maribou State|Holly Walker,8,0GNI8K3VATWBABQFAzBAYe,Stay,Rihanna|Mikky Ekko,singlestage,1.0
+0pAiyIHt9DyHOjWgF41kp6,Steal,Maribou State|Holly Walker,1,269XSeQhDrWEotMALJaACW,Amour plastique,Videoclub|Adèle Castillon|Mattyeux,twostage,1.0
+0pAiyIHt9DyHOjWgF41kp6,Steal,Maribou State|Holly Walker,5,11BAVEGi1ivJ6JWLqKUNrZ,Catch & Release - Deepend Remix,Matt Simons|Deepend,twostage,2.0
+0pAiyIHt9DyHOjWgF41kp6,Steal,Maribou State|Holly Walker,7,3ElI5xtTBJlYf5sFSiNbJD,Aquí Te Espero,Ivan Cornejo,singlestage,1.0
+3F3ZuXYFXGM1V6pk3b3zmi,Kinni Kinni,Diljit Dosanjh|thiarajxtt,1,5BQePe9rcCJozHK3oPayYk,MVP,Shubh,singlestage,0.0
+3F3ZuXYFXGM1V6pk3b3zmi,Kinni Kinni,Diljit Dosanjh|thiarajxtt,8,0NJAqnvbF6vzripOB7PclP,Babaero,gins&melodies|Hev Abi,twostage,0.0
+3F3ZuXYFXGM1V6pk3b3zmi,Kinni Kinni,Diljit Dosanjh|thiarajxtt,6,4vHy2IHzf3EabEa7oMpUZB,No Wahala,1da Banton,twostage,1.0
+3F3ZuXYFXGM1V6pk3b3zmi,Kinni Kinni,Diljit Dosanjh|thiarajxtt,2,6c4Po8zyQjB4cR5XgLhcGb,9:45,Prabh Singh|Jay Trak|Rooh Sandhu,singlestage,1.0
+3F3ZuXYFXGM1V6pk3b3zmi,Kinni Kinni,Diljit Dosanjh|thiarajxtt,9,32VAw8DL9ixX5XSW2VLcZ4,Aam Jahe Munde,Parmish Verma|PARDHAAN|Desi Crew,singlestage,1.0
+3F3ZuXYFXGM1V6pk3b3zmi,Kinni Kinni,Diljit Dosanjh|thiarajxtt,6,0NJAqnvbF6vzripOB7PclP,Babaero,gins&melodies|Hev Abi,singlestage,0.0
+3F3ZuXYFXGM1V6pk3b3zmi,Kinni Kinni,Diljit Dosanjh|thiarajxtt,2,6c4Po8zyQjB4cR5XgLhcGb,9:45,Prabh Singh|Jay Trak|Rooh Sandhu,twostage,1.0
+3F3ZuXYFXGM1V6pk3b3zmi,Kinni Kinni,Diljit Dosanjh|thiarajxtt,4,3xgA3KSsd8mt3UjQxNtQy3,Bajrang Baan-Lofi,Rasraj Ji Maharaj,singlestage,0.0
+3F3ZuXYFXGM1V6pk3b3zmi,Kinni Kinni,Diljit Dosanjh|thiarajxtt,9,32VAw8DL9ixX5XSW2VLcZ4,Aam Jahe Munde,Parmish Verma|PARDHAAN|Desi Crew,twostage,1.0
+3F3ZuXYFXGM1V6pk3b3zmi,Kinni Kinni,Diljit Dosanjh|thiarajxtt,7,5PUXKVVVQ74C3gl5vKy9Li,Heeriye (feat. Arijit Singh),Jasleen Royal|Arijit Singh|Dulquer Salmaan,twostage,1.0
+3F3ZuXYFXGM1V6pk3b3zmi,Kinni Kinni,Diljit Dosanjh|thiarajxtt,4,7spAR93xvPOfkxIeTGbpPf,Tas Texteandome,Katteyes|Kidd Voodoo,twostage,2.0
+3F3ZuXYFXGM1V6pk3b3zmi,Kinni Kinni,Diljit Dosanjh|thiarajxtt,3,36N5awamOX6XX5pQn3aFXZ,"Soni Soni (From ""Ishq Vishk Rebound"")",Darshan Raval|Jonita Gandhi|Rochak Kohli|Gurpreet Saini,singlestage,1.0
+3F3ZuXYFXGM1V6pk3b3zmi,Kinni Kinni,Diljit Dosanjh|thiarajxtt,10,4vHy2IHzf3EabEa7oMpUZB,No Wahala,1da Banton,singlestage,1.0
+3F3ZuXYFXGM1V6pk3b3zmi,Kinni Kinni,Diljit Dosanjh|thiarajxtt,10,3xgA3KSsd8mt3UjQxNtQy3,Bajrang Baan-Lofi,Rasraj Ji Maharaj,twostage,0.0
+3F3ZuXYFXGM1V6pk3b3zmi,Kinni Kinni,Diljit Dosanjh|thiarajxtt,5,5PUXKVVVQ74C3gl5vKy9Li,Heeriye (feat. Arijit Singh),Jasleen Royal|Arijit Singh|Dulquer Salmaan,singlestage,1.0
+3F3ZuXYFXGM1V6pk3b3zmi,Kinni Kinni,Diljit Dosanjh|thiarajxtt,3,36N5awamOX6XX5pQn3aFXZ,"Soni Soni (From ""Ishq Vishk Rebound"")",Darshan Raval|Jonita Gandhi|Rochak Kohli|Gurpreet Saini,twostage,1.0
+3F3ZuXYFXGM1V6pk3b3zmi,Kinni Kinni,Diljit Dosanjh|thiarajxtt,8,1BpvuKIG7jK5EiTp2tv5z8,King Shit,Shubh,singlestage,0.0
+3F3ZuXYFXGM1V6pk3b3zmi,Kinni Kinni,Diljit Dosanjh|thiarajxtt,1,5BQePe9rcCJozHK3oPayYk,MVP,Shubh,twostage,0.0
+3F3ZuXYFXGM1V6pk3b3zmi,Kinni Kinni,Diljit Dosanjh|thiarajxtt,5,6XjDF6nds4DE2BBbagZol6,Gata Only,FloyyMenor|Cris Mj,twostage,1.0
+3F3ZuXYFXGM1V6pk3b3zmi,Kinni Kinni,Diljit Dosanjh|thiarajxtt,7,1LFNOKVaFVBFCiLwz8Ay4O,Ahista Ahista,Kazinama|Musarrat Nazir,singlestage,0.0
+5JC2ezFSbkVi4Js4byzKoj,Poesia Acústica #6 Era uma Vez,MC Cabelinho|Bob do Contra|Azzy|Filipe Ret|Dudu|Xamã|Orochi|Maquiny|Pineapple StormTv,1,2Bi7IhhjS7ZgzSe7FMaHs1,wunderschön,Zartmann,singlestage,0.0
+5JC2ezFSbkVi4Js4byzKoj,Poesia Acústica #6 Era uma Vez,MC Cabelinho|Bob do Contra|Azzy|Filipe Ret|Dudu|Xamã|Orochi|Maquiny|Pineapple StormTv,8,1mSxbLW7fKABfeY4lGpg0E,Velha Infância - 2004 Digital Remaster,Tribalistas,twostage,0.0
+5JC2ezFSbkVi4Js4byzKoj,Poesia Acústica #6 Era uma Vez,MC Cabelinho|Bob do Contra|Azzy|Filipe Ret|Dudu|Xamã|Orochi|Maquiny|Pineapple StormTv,6,4s6LhHAV5SEsOV0lC2tjvJ,California Dreamin' - Single Version,The Mamas & The Papas,twostage,0.0
+5JC2ezFSbkVi4Js4byzKoj,Poesia Acústica #6 Era uma Vez,MC Cabelinho|Bob do Contra|Azzy|Filipe Ret|Dudu|Xamã|Orochi|Maquiny|Pineapple StormTv,2,0645eBDehHcqfiF15hscQV,"Janiye (from the Netflix Film ""Chor Nikal Ke Bhaga"")",Vishal Mishra|Rashmeet Kaur,singlestage,0.0
+5JC2ezFSbkVi4Js4byzKoj,Poesia Acústica #6 Era uma Vez,MC Cabelinho|Bob do Contra|Azzy|Filipe Ret|Dudu|Xamã|Orochi|Maquiny|Pineapple StormTv,9,2HbmLkHkkI15eES8kpWRuI,Ven Devórame Otra Vez,Lalo Rodriguez,singlestage,0.0
+5JC2ezFSbkVi4Js4byzKoj,Poesia Acústica #6 Era uma Vez,MC Cabelinho|Bob do Contra|Azzy|Filipe Ret|Dudu|Xamã|Orochi|Maquiny|Pineapple StormTv,6,4UHRMwbbiZ7tkeEkhyN7iB,Persona Ideal - Me Tengo Que Ir,Adolescent's Orquesta,singlestage,0.0
+5JC2ezFSbkVi4Js4byzKoj,Poesia Acústica #6 Era uma Vez,MC Cabelinho|Bob do Contra|Azzy|Filipe Ret|Dudu|Xamã|Orochi|Maquiny|Pineapple StormTv,2,0zxj7dVhYZq5ACyaDx5XIo,Layla - Acoustic Live,Eric Clapton,twostage,0.0
+5JC2ezFSbkVi4Js4byzKoj,Poesia Acústica #6 Era uma Vez,MC Cabelinho|Bob do Contra|Azzy|Filipe Ret|Dudu|Xamã|Orochi|Maquiny|Pineapple StormTv,4,28LgPbNAuQOYOcdoJzaGGP,Lej kto rrena,Butrint Imeri,singlestage,1.0
+5JC2ezFSbkVi4Js4byzKoj,Poesia Acústica #6 Era uma Vez,MC Cabelinho|Bob do Contra|Azzy|Filipe Ret|Dudu|Xamã|Orochi|Maquiny|Pineapple StormTv,9,4ENgK9ehJ9PxxrjY2iEH1j,Chandelier,Will Paquin,twostage,0.0
+5JC2ezFSbkVi4Js4byzKoj,Poesia Acústica #6 Era uma Vez,MC Cabelinho|Bob do Contra|Azzy|Filipe Ret|Dudu|Xamã|Orochi|Maquiny|Pineapple StormTv,7,006pMMCuRo2TFjh8sNGSov,"Dias De Luta, Dias De Gloria",Charlie Brown Jr.,twostage,0.0
+5JC2ezFSbkVi4Js4byzKoj,Poesia Acústica #6 Era uma Vez,MC Cabelinho|Bob do Contra|Azzy|Filipe Ret|Dudu|Xamã|Orochi|Maquiny|Pineapple StormTv,4,3bxZhauuIU4ubctdRZwPYW,Chan Chan,Buena Vista Social Club,twostage,0.0
+5JC2ezFSbkVi4Js4byzKoj,Poesia Acústica #6 Era uma Vez,MC Cabelinho|Bob do Contra|Azzy|Filipe Ret|Dudu|Xamã|Orochi|Maquiny|Pineapple StormTv,3,30ga1gIdpg6M6ZshWo7YgC,PPC,ROA|Hades66,singlestage,2.0
+5JC2ezFSbkVi4Js4byzKoj,Poesia Acústica #6 Era uma Vez,MC Cabelinho|Bob do Contra|Azzy|Filipe Ret|Dudu|Xamã|Orochi|Maquiny|Pineapple StormTv,10,0W2pF7zyj9dwZVK1RoUyjh,WYA REMIX BLACK AND YELLOW (feat. iZaak & Pirlo),J Abdiel|Anuel AA|Blessd|iZaak|Pirlo,singlestage,1.0
+5JC2ezFSbkVi4Js4byzKoj,Poesia Acústica #6 Era uma Vez,MC Cabelinho|Bob do Contra|Azzy|Filipe Ret|Dudu|Xamã|Orochi|Maquiny|Pineapple StormTv,10,54udnumOCHpq4SRpbKleat,1004 KM,Junior H,twostage,0.0
+5JC2ezFSbkVi4Js4byzKoj,Poesia Acústica #6 Era uma Vez,MC Cabelinho|Bob do Contra|Azzy|Filipe Ret|Dudu|Xamã|Orochi|Maquiny|Pineapple StormTv,5,35ttE4t8lQZA2vuCYDg4G7,M.A.I,Milo j,singlestage,0.0
+5JC2ezFSbkVi4Js4byzKoj,Poesia Acústica #6 Era uma Vez,MC Cabelinho|Bob do Contra|Azzy|Filipe Ret|Dudu|Xamã|Orochi|Maquiny|Pineapple StormTv,3,0645eBDehHcqfiF15hscQV,"Janiye (from the Netflix Film ""Chor Nikal Ke Bhaga"")",Vishal Mishra|Rashmeet Kaur,twostage,0.0
+5JC2ezFSbkVi4Js4byzKoj,Poesia Acústica #6 Era uma Vez,MC Cabelinho|Bob do Contra|Azzy|Filipe Ret|Dudu|Xamã|Orochi|Maquiny|Pineapple StormTv,8,1whs2eO84P6NRtmDQN2YTl,arena,Beéle|Carla Morrison,singlestage,0.0
+5JC2ezFSbkVi4Js4byzKoj,Poesia Acústica #6 Era uma Vez,MC Cabelinho|Bob do Contra|Azzy|Filipe Ret|Dudu|Xamã|Orochi|Maquiny|Pineapple StormTv,1,1vKXtNEKU9fegCsHt9LQPD,LA TORTURA,Milo j|Cerounno,twostage,0.0
+5JC2ezFSbkVi4Js4byzKoj,Poesia Acústica #6 Era uma Vez,MC Cabelinho|Bob do Contra|Azzy|Filipe Ret|Dudu|Xamã|Orochi|Maquiny|Pineapple StormTv,5,62KZRwymXq9Rgm8Cm5UCfx,The World We Knew (Over And Over),Frank Sinatra,twostage,0.0
+5JC2ezFSbkVi4Js4byzKoj,Poesia Acústica #6 Era uma Vez,MC Cabelinho|Bob do Contra|Azzy|Filipe Ret|Dudu|Xamã|Orochi|Maquiny|Pineapple StormTv,7,1OubIZ0ARYCUq5kceYUQiO,Congratulations (feat. Bilal),Mac Miller|Bilal,singlestage,0.0
+0iO2iCAjtX0t5duvczNQt6,Oscar Winning Tears.,RAYE,1,73ZlmJxexVebFozgZhEhkd,O Children,Nick Cave & The Bad Seeds,singlestage,2.0
+0iO2iCAjtX0t5duvczNQt6,Oscar Winning Tears.,RAYE,8,0c8K5IUrmVlieC0Fc0d8tV,Mr. Forgettable,David Kushner,twostage,1.0
+0iO2iCAjtX0t5duvczNQt6,Oscar Winning Tears.,RAYE,6,2JN3ugW1cEahbYw0I5mw5U,Astronomy,Conan Gray,twostage,0.0
+0iO2iCAjtX0t5duvczNQt6,Oscar Winning Tears.,RAYE,2,2Bi7IhhjS7ZgzSe7FMaHs1,wunderschön,Zartmann,singlestage,1.0
+0iO2iCAjtX0t5duvczNQt6,Oscar Winning Tears.,RAYE,9,057YRaQ57p70MVg4hMIIkB,Камин (feat. JONY),EMIN|JONY,singlestage,0.0
+0iO2iCAjtX0t5duvczNQt6,Oscar Winning Tears.,RAYE,6,1HYzRuWjmS9LXCkdVHi25K,Stay With Me,CHANYEOL|Punch,singlestage,0.0
+0iO2iCAjtX0t5duvczNQt6,Oscar Winning Tears.,RAYE,2,17cia5k4BpGVlyEfqrFH50,Can’t Catch Me Now - from The Hunger Games: The Ballad of Songbirds & Snakes,Olivia Rodrigo,twostage,0.0
+0iO2iCAjtX0t5duvczNQt6,Oscar Winning Tears.,RAYE,4,2f8sB9lQ6Uh1lKKWJNR9rW,Manos de Tijera,Camilo,singlestage,0.0
+0iO2iCAjtX0t5duvczNQt6,Oscar Winning Tears.,RAYE,9,4XTgFBxBHN6var1BzAgE1m,Jhol,Maanu|Annural Khalid,twostage,0.0
+0iO2iCAjtX0t5duvczNQt6,Oscar Winning Tears.,RAYE,7,2ZRo7axmMPeSVUvDbGkJah,Hope,XXXTENTACION,twostage,0.0
+0iO2iCAjtX0t5duvczNQt6,Oscar Winning Tears.,RAYE,4,14vcO1XwnWzz4RJnUAQSkW,LA CUEVA,Cazzu,twostage,0.0
+0iO2iCAjtX0t5duvczNQt6,Oscar Winning Tears.,RAYE,3,0sSRLXxknVTQDStgU1NqpY,Hours In Silence,Drake|21 Savage,singlestage,0.0
+0iO2iCAjtX0t5duvczNQt6,Oscar Winning Tears.,RAYE,10,4qTGOuXmoR7fk7dApMlQjG,Get in the Water,Jorge Rivera-Herrans|Steven Rodriguez|Steven Dookie|Armando Julián|Wanda Herrans|Cast of EPIC: The Musical,singlestage,0.0
+0iO2iCAjtX0t5duvczNQt6,Oscar Winning Tears.,RAYE,10,4S2uhQE8L9V6p7rj7SiauJ,Suicidal (feat. Juice WRLD) - Remix,YNW Melly|Juice WRLD,twostage,0.0
+0iO2iCAjtX0t5duvczNQt6,Oscar Winning Tears.,RAYE,5,2FbGlEPAjNhWvrVvlentVq,Cameras / Good Ones Go Interlude - Medley,Drake,singlestage,0.0
+0iO2iCAjtX0t5duvczNQt6,Oscar Winning Tears.,RAYE,3,2nejvFyJeTDtMRP2nUMt0J,Abrázame Muy Fuerte,Juan Gabriel,twostage,1.0
+0iO2iCAjtX0t5duvczNQt6,Oscar Winning Tears.,RAYE,8,0W2pF7zyj9dwZVK1RoUyjh,WYA REMIX BLACK AND YELLOW (feat. iZaak & Pirlo),J Abdiel|Anuel AA|Blessd|iZaak|Pirlo,singlestage,0.0
+0iO2iCAjtX0t5duvczNQt6,Oscar Winning Tears.,RAYE,1,1YZOcaGiN1cCwANvG3Ib9G,Nostalgia,Tate McRae,twostage,1.0
+0iO2iCAjtX0t5duvczNQt6,Oscar Winning Tears.,RAYE,5,3a3dQOO19moXPeTt2PomoT,What You Heard,Sonder,twostage,0.0
+0iO2iCAjtX0t5duvczNQt6,Oscar Winning Tears.,RAYE,7,17cia5k4BpGVlyEfqrFH50,Can’t Catch Me Now - from The Hunger Games: The Ballad of Songbirds & Snakes,Olivia Rodrigo,singlestage,0.0
+6wZOZ0votPhc8qdg4UFPtH,dandelion,Ariana Grande,1,0SCIwbS0Q4etwJmDyNjHaQ,Diamond Boy (DTM),SZA,singlestage,1.0
+6wZOZ0votPhc8qdg4UFPtH,dandelion,Ariana Grande,8,6LxSe8YmdPxy095Ux6znaQ,Headlines,Drake,twostage,0.0
+6wZOZ0votPhc8qdg4UFPtH,dandelion,Ariana Grande,6,3ym8ajVmKm6Fybgov3WBI5,Let Me Go,Daniel Caesar,twostage,0.0
+6wZOZ0votPhc8qdg4UFPtH,dandelion,Ariana Grande,2,23d8v6tU6lR77pFKsApMtF,NADIE SABE,Bad Bunny,singlestage,0.0
+6wZOZ0votPhc8qdg4UFPtH,dandelion,Ariana Grande,9,1Sym1HsTqsa2pYKhYL1j15,Me Gustas Natural,Eladio Carrion|Rels B,singlestage,0.0
+6wZOZ0votPhc8qdg4UFPtH,dandelion,Ariana Grande,6,2MjQmsRAUArE2GDwjsVew3,GREEDY,PARTYNEXTDOOR|Drake,singlestage,1.0
+6wZOZ0votPhc8qdg4UFPtH,dandelion,Ariana Grande,2,5expoVGQPvXuwBBFuNGqBd,Hurt,NewJeans,twostage,2.0
+6wZOZ0votPhc8qdg4UFPtH,dandelion,Ariana Grande,4,465lkwZP4ZXzWqZq4kOhgW,La Verdad,Kidd Voodoo|Resonancia Etérea,singlestage,0.0
+6wZOZ0votPhc8qdg4UFPtH,dandelion,Ariana Grande,9,0UZLaEOSIc5kg0cc7eszqC,Manjha,Vishal Mishra,twostage,0.0
+6wZOZ0votPhc8qdg4UFPtH,dandelion,Ariana Grande,7,6y6jbcPG4Yn3Du4moXaenr,idfc,blackbear,twostage,1.0
+6wZOZ0votPhc8qdg4UFPtH,dandelion,Ariana Grande,4,18HOjcvTVV7W8YzBuOsAPS,Un Verano Sin Ti,Bad Bunny,twostage,1.0
+6wZOZ0votPhc8qdg4UFPtH,dandelion,Ariana Grande,3,3aSWXU6owkZeVhh94XxEWO,30 For 30 (with Kendrick Lamar),SZA|Kendrick Lamar,singlestage,1.0
+6wZOZ0votPhc8qdg4UFPtH,dandelion,Ariana Grande,10,3Z0oQ8r78OUaHvGPiDBR3W,Into the Unknown,Idina Menzel|AURORA,singlestage,0.0
+6wZOZ0votPhc8qdg4UFPtH,dandelion,Ariana Grande,10,2DXK0YNGSqnaIEX5iaSIoK,RELOJ,Peso Pluma|Ivan Cornejo,twostage,0.0
+6wZOZ0votPhc8qdg4UFPtH,dandelion,Ariana Grande,5,4mVhmpRtHuzMFJlU3an4eG,LICHTER AUS,makko|Miksu / Macloud,singlestage,0.0
+6wZOZ0votPhc8qdg4UFPtH,dandelion,Ariana Grande,3,5mjYQaktjmjcMKcUIcqz4s,Strangers,Kenya Grace,twostage,1.0
+6wZOZ0votPhc8qdg4UFPtH,dandelion,Ariana Grande,8,7g8YaUQABMal0zWe7a2ijz,Pa Mí - Remix,Dalex|Rafa Pabön|KHEA|Sech|Feid|Cazzu|Lenny Tavárez,singlestage,1.0
+6wZOZ0votPhc8qdg4UFPtH,dandelion,Ariana Grande,1,26QApq0cuO9brJigr0C0W4,HACIENDO QUE ME AMAS,Bad Bunny,twostage,1.0
+6wZOZ0votPhc8qdg4UFPtH,dandelion,Ariana Grande,5,0y1QJc3SJVPKJ1OvFmFqe6,Way down We Go,KALEO,twostage,0.0
+6wZOZ0votPhc8qdg4UFPtH,dandelion,Ariana Grande,7,4e0FYxSROat25pH16zMTZI,Love Me,Lil Tecca,singlestage,0.0
 76ZWOhRRQzmb4xMoZzTjJ9,Payal,Yo Yo Honey Singh|Paradox,1,7IFsTX5H1sWcEl8joV0IdD,THE BOX MEDLEY FUNK 2,THE BOX|Mc Brinquedo|MC Cebezinho|MC Tuto|Mc Laranjinha|DJ Oreia,singlestage,
 76ZWOhRRQzmb4xMoZzTjJ9,Payal,Yo Yo Honey Singh|Paradox,8,3AR1c3Dssq51WlGGkuYJNj,El lado oscuro,Jarabe De Palo,twostage,
 76ZWOhRRQzmb4xMoZzTjJ9,Payal,Yo Yo Honey Singh|Paradox,6,3XfUFGzbr0LmwFVoLXd9cO,Billete Grande (En Vivo),Fuerza Regida|Edgardo Nuñez,twostage,
@@ -319,26 +319,6 @@ query_id,query_name,query_artist,rec_rank,rec_id,rec_name,rec_artist,model,relev
 2xxb5zW09uwbgyLprALi9E,RAINING IN HOUSTON,Drake,1,1UWacd8x8tPPwmrPB1MoBI,Ae Dil Hai Mushkil Title Track,Pritam|Arijit Singh,twostage,
 2xxb5zW09uwbgyLprALi9E,RAINING IN HOUSTON,Drake,5,6HlIwEASZhw0cO2YtzxQ8f,Preso,José José,twostage,
 2xxb5zW09uwbgyLprALi9E,RAINING IN HOUSTON,Drake,7,4PMqSO5qyjpvzhlLI5GnID,Good Days,SZA,singlestage,
-6Qyc6fS4DsZjB2mRW9DsQs,Iris,The Goo Goo Dolls,1,6vrUTGn5p8IrfTZ0J6sIVM,Iris,The Goo Goo Dolls,singlestage,
-6Qyc6fS4DsZjB2mRW9DsQs,Iris,The Goo Goo Dolls,8,31eQP55jRbczzhi1YCNynR,Bekleyenim,Aleyna Tilki,twostage,
-6Qyc6fS4DsZjB2mRW9DsQs,Iris,The Goo Goo Dolls,6,5fVl28RgREvxVtGSf9OsbK,Meddle About,Chase Atlantic,twostage,
-6Qyc6fS4DsZjB2mRW9DsQs,Iris,The Goo Goo Dolls,2,7b3k8I1fncAzbk9PHnLkbX,Luna - En Vivo,Zoé,singlestage,
-6Qyc6fS4DsZjB2mRW9DsQs,Iris,The Goo Goo Dolls,9,559mLg44MrcA7JzYGbpXfL,Vielleicht Vielleicht,MilleniumKid|JBS,singlestage,
-6Qyc6fS4DsZjB2mRW9DsQs,Iris,The Goo Goo Dolls,6,3UygY7qW2cvG9Llkay6i1i,Going Under,Evanescence,singlestage,
-6Qyc6fS4DsZjB2mRW9DsQs,Iris,The Goo Goo Dolls,2,7txxAtOMwLLnQTpKeBL6bp,Mother,Danzig,twostage,
-6Qyc6fS4DsZjB2mRW9DsQs,Iris,The Goo Goo Dolls,4,6kdCN6gTWLcLxmLXoUcwuI,Eres,Café Tacvba,singlestage,
-6Qyc6fS4DsZjB2mRW9DsQs,Iris,The Goo Goo Dolls,9,3UygY7qW2cvG9Llkay6i1i,Going Under,Evanescence,twostage,
-6Qyc6fS4DsZjB2mRW9DsQs,Iris,The Goo Goo Dolls,7,4rJdaSwOCHLBhxdMsymeMw,Entre dos tierras,Heroes Del Silencio,twostage,
-6Qyc6fS4DsZjB2mRW9DsQs,Iris,The Goo Goo Dolls,4,7Ewz6bJ97vUqk5HdkvguFQ,Heaven,Bryan Adams,twostage,
-6Qyc6fS4DsZjB2mRW9DsQs,Iris,The Goo Goo Dolls,3,15AbuFJdFrbINydSMSqVhV,Aléjate de Mí,Camila,singlestage,
-6Qyc6fS4DsZjB2mRW9DsQs,Iris,The Goo Goo Dolls,10,2JLdXUhCP7JPHBVccphHId,Jika Cinta Dia,Geisha,singlestage,
-6Qyc6fS4DsZjB2mRW9DsQs,Iris,The Goo Goo Dolls,10,2bL2gyO6kBdLkNSkxXNh6x,Animals,Maroon 5,twostage,
-6Qyc6fS4DsZjB2mRW9DsQs,Iris,The Goo Goo Dolls,5,2RlpOjMTH17Gf0F0AM40Lw,Kör Sevdam,Zeynep Bastık,singlestage,
-6Qyc6fS4DsZjB2mRW9DsQs,Iris,The Goo Goo Dolls,3,4IoYz8XqqdowINzfRrFnhi,You Found Me,The Fray,twostage,
-6Qyc6fS4DsZjB2mRW9DsQs,Iris,The Goo Goo Dolls,8,6lSr3iZTC144PKhvbPFzMp,Blurry,Puddle Of Mudd,singlestage,
-6Qyc6fS4DsZjB2mRW9DsQs,Iris,The Goo Goo Dolls,1,6vrUTGn5p8IrfTZ0J6sIVM,Iris,The Goo Goo Dolls,twostage,
-6Qyc6fS4DsZjB2mRW9DsQs,Iris,The Goo Goo Dolls,5,1dyTcli07c77mtQK3ahUZR,Just,Radiohead,twostage,
-6Qyc6fS4DsZjB2mRW9DsQs,Iris,The Goo Goo Dolls,7,3yV2c3cYhkAwSsxAq6nRiv,Mann Mera,Gajendra Verma,singlestage,
 507bYMYfbm6sUS9iEAaeSd,Broken,Seether|Amy Lee,1,2vPZ4Lklyu75zBR3SgbFNI,Snuff,Slipknot,singlestage,
 507bYMYfbm6sUS9iEAaeSd,Broken,Seether|Amy Lee,8,5J4ZkQpzMUFojo1CtAZYpn,Love Me Harder,Ariana Grande|The Weeknd,twostage,
 507bYMYfbm6sUS9iEAaeSd,Broken,Seether|Amy Lee,6,0RdUX4WE0fO30VnlUbDVL6,Still Loving You,Scorpions,twostage,
@@ -514,7 +494,7 @@ query_id,query_name,query_artist,rec_rank,rec_id,rec_name,rec_artist,model,relev
 3ESSGgWzRf1xvP7G5hHMhB,Again,Fetty Wap,10,6osaMSJh9NguagEDQcZaKx,Loco Contigo (feat. J. Balvin & Tyga),DJ Snake|J Balvin|Tyga,singlestage,
 3ESSGgWzRf1xvP7G5hHMhB,Again,Fetty Wap,10,01aTsQoKoeXofSTvKuunzv,Lean On,Major Lazer|DJ Snake|MØ,twostage,
 3ESSGgWzRf1xvP7G5hHMhB,Again,Fetty Wap,5,7eNwwoxDR8KVzNAuGvliAO,Kyoto,Omar Courtz|De La Rose|Haze,singlestage,
-3ESSGgWzRf1xvP7G5hHMhB,Again,Fetty Wap,3,5C3caQlYqE3Z6jcyRTtfME,0008,Sidhu Moose Wala|Jenny Johal|The Kidd,twostage,
+3ESSGgWzRf1xvP7G5hHMhB,Again,Fetty Wap,3,5C3caQlYqE3Z6jcyRTtfME,8,Sidhu Moose Wala|Jenny Johal|The Kidd,twostage,
 3ESSGgWzRf1xvP7G5hHMhB,Again,Fetty Wap,8,6jp9WjJtKF0Fgks0Y9Kkni,Like I do,Tate McRae,singlestage,
 3ESSGgWzRf1xvP7G5hHMhB,Again,Fetty Wap,1,4fINc8dnfcz7AdhFYVA4i7,It Girl,Jason Derulo,twostage,
 3ESSGgWzRf1xvP7G5hHMhB,Again,Fetty Wap,5,067ogyD1BIeZDh4UD0yV3Y,90s Rap Mashup,Austin Williams,twostage,
@@ -550,7 +530,7 @@ query_id,query_name,query_artist,rec_rank,rec_id,rec_name,rec_artist,model,relev
 4d2jV5fmX6hbRwaRbY39dt,Wavy,Karan Aujla,9,2IWtloZYQDcP8Ashwx8QEF,Black Out Days,Phantogram,twostage,
 4d2jV5fmX6hbRwaRbY39dt,Wavy,Karan Aujla,7,03W2WiY9OSnUI4F9dy9L60,Watermelon,John + Jane Q. Public,twostage,
 4d2jV5fmX6hbRwaRbY39dt,Wavy,Karan Aujla,4,2u54HNQamwFuOMLSuhSRom,Blood Sweat & Tears,BTS,twostage,
-4d2jV5fmX6hbRwaRbY39dt,Wavy,Karan Aujla,3,5C3caQlYqE3Z6jcyRTtfME,0008,Sidhu Moose Wala|Jenny Johal|The Kidd,singlestage,
+4d2jV5fmX6hbRwaRbY39dt,Wavy,Karan Aujla,3,5C3caQlYqE3Z6jcyRTtfME,8,Sidhu Moose Wala|Jenny Johal|The Kidd,singlestage,
 4d2jV5fmX6hbRwaRbY39dt,Wavy,Karan Aujla,10,4DairgmwgyfmFHm0e7kRPL,Be Mine (English Version),Jimin,singlestage,
 4d2jV5fmX6hbRwaRbY39dt,Wavy,Karan Aujla,10,6O20JhBJPePEkBdrB5sqRx,Diamonds,Rihanna,twostage,
 4d2jV5fmX6hbRwaRbY39dt,Wavy,Karan Aujla,5,0MTZm8KRFCeBlE4UHar3lg,Misionar,DrefQuila|Pablo Chill-E|Kidd Voodoo|Lidanza,singlestage,
@@ -683,7 +663,7 @@ query_id,query_name,query_artist,rec_rank,rec_id,rec_name,rec_artist,model,relev
 2sHYMLUd4nVLxHPKY05Ein,Habibi - Albanian Remix,Ricky Rich|Dardan|DJ Gimi-O,8,2p8IUWQDrpjuFltbdgLOag,After Hours,The Weeknd,twostage,
 2sHYMLUd4nVLxHPKY05Ein,Habibi - Albanian Remix,Ricky Rich|Dardan|DJ Gimi-O,6,3Huma5kcTHmfgZ6UadDB9R,ghost boy,Lil Peep,twostage,
 2sHYMLUd4nVLxHPKY05Ein,Habibi - Albanian Remix,Ricky Rich|Dardan|DJ Gimi-O,2,7ndejYcYfmvkbImaXiYf9C,KARANLIK,Yung Kafa & Kücük Efendi|Motive|Jumpa,singlestage,
-2sHYMLUd4nVLxHPKY05Ein,Habibi - Albanian Remix,Ricky Rich|Dardan|DJ Gimi-O,9,5C3caQlYqE3Z6jcyRTtfME,0008,Sidhu Moose Wala|Jenny Johal|The Kidd,singlestage,
+2sHYMLUd4nVLxHPKY05Ein,Habibi - Albanian Remix,Ricky Rich|Dardan|DJ Gimi-O,9,5C3caQlYqE3Z6jcyRTtfME,8,Sidhu Moose Wala|Jenny Johal|The Kidd,singlestage,
 2sHYMLUd4nVLxHPKY05Ein,Habibi - Albanian Remix,Ricky Rich|Dardan|DJ Gimi-O,6,2FqoR7diymD1Eh7cVb3DMg,Algo Me Gusta De Ti,Wisin & Yandel|Chris Brown|T-Pain,singlestage,
 2sHYMLUd4nVLxHPKY05Ein,Habibi - Albanian Remix,Ricky Rich|Dardan|DJ Gimi-O,2,7mTOeGfsxp8WXvVLL2B76c,right here,Lil Peep|Horse Head,twostage,
 2sHYMLUd4nVLxHPKY05Ein,Habibi - Albanian Remix,Ricky Rich|Dardan|DJ Gimi-O,4,311m4sWQq8MZZROimkSGF7,Ginevra (feat. Geolier),Luchè|Geolier,singlestage,
@@ -1093,7 +1073,7 @@ query_id,query_name,query_artist,rec_rank,rec_id,rec_name,rec_artist,model,relev
 78QcVmzxS0wIwuC2rpAauI,2/Catorce,Rauw Alejandro|Mr. Naisgai,3,0OTtnwUO8natNWSwdZvXVF,Inolvidable,Ovy On The Drums|Beéle,singlestage,
 78QcVmzxS0wIwuC2rpAauI,2/Catorce,Rauw Alejandro|Mr. Naisgai,10,5Za4Ocbq6E0qAYOYiKEV9R,ÉLITE,Cris Mj,singlestage,
 78QcVmzxS0wIwuC2rpAauI,2/Catorce,Rauw Alejandro|Mr. Naisgai,10,60RgDM1qDQ22HpfsK9Ul4h,borondo,Beéle,twostage,
-78QcVmzxS0wIwuC2rpAauI,2/Catorce,Rauw Alejandro|Mr. Naisgai,5,1F205Nl2feOSYSztLNOJAL,3 Am,Eladio Carrion|Brytiago,singlestage,
+78QcVmzxS0wIwuC2rpAauI,2/Catorce,Rauw Alejandro|Mr. Naisgai,5,1F205Nl2feOSYSztLNOJAL,3:00 AM,Eladio Carrion|Brytiago,singlestage,
 78QcVmzxS0wIwuC2rpAauI,2/Catorce,Rauw Alejandro|Mr. Naisgai,3,0fLOPPoyIaPTe8dm2Mrft3,Tú No Lo Amas,Anuel AA,twostage,
 78QcVmzxS0wIwuC2rpAauI,2/Catorce,Rauw Alejandro|Mr. Naisgai,8,3Cx4BsDd4q0GCVBJ5CAw2K,No Te Quieren Conmigo,Gaby Music|Lunay|Luar La L,singlestage,
 78QcVmzxS0wIwuC2rpAauI,2/Catorce,Rauw Alejandro|Mr. Naisgai,1,256nKlwQdp2GE6DYGvTDoG,Cool,Gracie Abrams,twostage,
@@ -1544,7 +1524,7 @@ query_id,query_name,query_artist,rec_rank,rec_id,rec_name,rec_artist,model,relev
 48EQasc6XD0pOQtkIOWqOC,Locked Up,Akon,6,3T06rGO2dVEntMvym0vpQu,Empty,Juice WRLD,twostage,
 48EQasc6XD0pOQtkIOWqOC,Locked Up,Akon,2,2G7V7zsVDxg1yRsu7Ew9RJ,In My Feelings,Drake,singlestage,
 48EQasc6XD0pOQtkIOWqOC,Locked Up,Akon,9,09IStsImFySgyp0pIQdqAc,The Middle,Zedd|Maren Morris|Grey,singlestage,
-48EQasc6XD0pOQtkIOWqOC,Locked Up,Akon,6,26TX1oZbaDeKxfTYDclSAo,2AM,BigXthaPlug,singlestage,
+48EQasc6XD0pOQtkIOWqOC,Locked Up,Akon,6,26TX1oZbaDeKxfTYDclSAo,2:00 AM,BigXthaPlug,singlestage,
 48EQasc6XD0pOQtkIOWqOC,Locked Up,Akon,2,1zi7xx7UVEFkmKfv06H8x0,One Dance,Drake|Wizkid|Kyla,twostage,
 48EQasc6XD0pOQtkIOWqOC,Locked Up,Akon,4,76cy1WJvNGJTj78UqeA5zr,IDGAF,Dua Lipa,singlestage,
 48EQasc6XD0pOQtkIOWqOC,Locked Up,Akon,9,5xMjhZKSo8yh5r9b5vrYRr,Tailor Swif,A$AP Rocky,twostage,
@@ -1618,7 +1598,7 @@ query_id,query_name,query_artist,rec_rank,rec_id,rec_name,rec_artist,model,relev
 5W83ErFkO3aKAIS1WMi6u0,Secreto,Anuel AA|KAROL G,8,3f5lA8nnc4YYF1qf78WpHw,Ella Quiere Beber - Remix,Anuel AA|Romeo Santos,singlestage,
 5W83ErFkO3aKAIS1WMi6u0,Secreto,Anuel AA|KAROL G,1,0fKK51bU6lcCCwdNnv64t3,DEPORTIVO,Blessd|Anuel AA|Ovy On The Drums,twostage,
 5W83ErFkO3aKAIS1WMi6u0,Secreto,Anuel AA|KAROL G,5,6iOndD4OFo7GkaDypWQIou,La Plena - W Sound 05,W Sound|Beéle|Ovy On The Drums,twostage,
-5W83ErFkO3aKAIS1WMi6u0,Secreto,Anuel AA|KAROL G,7,1F205Nl2feOSYSztLNOJAL,3 Am,Eladio Carrion|Brytiago,singlestage,
+5W83ErFkO3aKAIS1WMi6u0,Secreto,Anuel AA|KAROL G,7,1F205Nl2feOSYSztLNOJAL,3:00 AM,Eladio Carrion|Brytiago,singlestage,
 5fLCM7IRYHKnxZslen6btz,Loco,Enrique Iglesias|Romeo Santos,1,1zusIxNqJu8i4g6P6hJ2Qa,Mercy,Duffy,singlestage,
 5fLCM7IRYHKnxZslen6btz,Loco,Enrique Iglesias|Romeo Santos,8,1JXcB149QtbcIpDUA6YZOB,Algo Que Se Quede,Grupo Niche,twostage,
 5fLCM7IRYHKnxZslen6btz,Loco,Enrique Iglesias|Romeo Santos,6,102YUQbYmwdBXS7jwamI90,Good Graces,Sabrina Carpenter,twostage,
@@ -2023,9 +2003,9 @@ query_id,query_name,query_artist,rec_rank,rec_id,rec_name,rec_artist,model,relev
 779jpZikRmH99DiSVpwCHD,soak city (do it),310babii,8,30LBoQSk8gjcN0hWCWtdbF,Dembow,Danny Ocean,twostage,
 779jpZikRmH99DiSVpwCHD,soak city (do it),310babii,6,2toVe5hfuIi97ytDPDbQFt,Taste (feat. Offset),Tyga|Offset,twostage,
 779jpZikRmH99DiSVpwCHD,soak city (do it),310babii,2,0lEjxUUlKqjqXrVlIHFduD,P power (feat. Drake),Gunna|Drake,singlestage,
-779jpZikRmH99DiSVpwCHD,soak city (do it),310babii,9,26TX1oZbaDeKxfTYDclSAo,2AM,BigXthaPlug,singlestage,
+779jpZikRmH99DiSVpwCHD,soak city (do it),310babii,9,26TX1oZbaDeKxfTYDclSAo,2:00 AM,BigXthaPlug,singlestage,
 779jpZikRmH99DiSVpwCHD,soak city (do it),310babii,6,0GfWTZZOc7co6oVqyQ556l,ESTE,El Alfa|Nfasis,singlestage,
-779jpZikRmH99DiSVpwCHD,soak city (do it),310babii,2,26TX1oZbaDeKxfTYDclSAo,2AM,BigXthaPlug,twostage,
+779jpZikRmH99DiSVpwCHD,soak city (do it),310babii,2,26TX1oZbaDeKxfTYDclSAo,2:00 AM,BigXthaPlug,twostage,
 779jpZikRmH99DiSVpwCHD,soak city (do it),310babii,4,0BxfFnk0YzONqvmrkO0QrB,Don't Cha,The Pussycat Dolls|Busta Rhymes,singlestage,
 779jpZikRmH99DiSVpwCHD,soak city (do it),310babii,9,0GfWTZZOc7co6oVqyQ556l,ESTE,El Alfa|Nfasis,twostage,
 779jpZikRmH99DiSVpwCHD,soak city (do it),310babii,7,0SqqAgdovOE24BzxIClpjw,Yo Perreo Sola,Bad Bunny,twostage,
@@ -2368,7 +2348,7 @@ query_id,query_name,query_artist,rec_rank,rec_id,rec_name,rec_artist,model,relev
 5w40ZYhbBMAlHYNDaVJIUu,Chemical,Post Malone,2,1qPbGZqppFwLwcBC1JQ6Vr,Wonderwall,Oasis,twostage,
 5w40ZYhbBMAlHYNDaVJIUu,Chemical,Post Malone,4,0VjIjW4GlUZAMYd2vXMi3b,Blinding Lights,The Weeknd,singlestage,
 5w40ZYhbBMAlHYNDaVJIUu,Chemical,Post Malone,9,2TfSHkHiFO4gRztVIkggkE,"Sugar, We're Goin Down",Fall Out Boy,twostage,
-5w40ZYhbBMAlHYNDaVJIUu,Chemical,Post Malone,7,4k3lPl8YTKuY8c1HelVnm3,'Til You Can't,Cody Johnson,twostage,
+5w40ZYhbBMAlHYNDaVJIUu,Chemical,Post Malone,7,4k3lPl8YTKuY8c1HelVnm3,Til You Can't,Cody Johnson,twostage,
 5w40ZYhbBMAlHYNDaVJIUu,Chemical,Post Malone,4,7x8dCjCr0x6x2lXKujYD34,The Pretender,Foo Fighters,twostage,
 5w40ZYhbBMAlHYNDaVJIUu,Chemical,Post Malone,3,6W2VbtvMrDXm5vYeB7amkO,Footloose,Kenny Loggins,singlestage,
 5w40ZYhbBMAlHYNDaVJIUu,Chemical,Post Malone,10,7lRlq939cDG4SzWOF4VAnd,I'm Not Okay (I Promise),My Chemical Romance,singlestage,
@@ -2587,7 +2567,7 @@ query_id,query_name,query_artist,rec_rank,rec_id,rec_name,rec_artist,model,relev
 64004K6OpNt3gI3LtXYC7n,Terlalu Lama,Vierra,6,3NqBxTOMCJ3zW9CIP51td4,Jugaste y Sufrí,Eslabon Armado|DannyLux,singlestage,
 64004K6OpNt3gI3LtXYC7n,Terlalu Lama,Vierra,2,4bf1MapeofdB3XKUqDMUOm,Kau Masih Kekasihku,NaFF,twostage,
 64004K6OpNt3gI3LtXYC7n,Terlalu Lama,Vierra,4,2JqsSFo6HqOxnmxBtHfNY6,Aku Yang Jatuh Cinta,Dudy Oris,singlestage,
-64004K6OpNt3gI3LtXYC7n,Terlalu Lama,Vierra,9,1GZnoLPpR9p2CwclsZnOXD,'Cause You Have To,LANY,twostage,
+64004K6OpNt3gI3LtXYC7n,Terlalu Lama,Vierra,9,1GZnoLPpR9p2CwclsZnOXD,Cause You Have To,LANY,twostage,
 64004K6OpNt3gI3LtXYC7n,Terlalu Lama,Vierra,7,4wf2u78747lu1rU5WbpXMk,Spending My Time,Roxette,twostage,
 64004K6OpNt3gI3LtXYC7n,Terlalu Lama,Vierra,4,28Ct4qwkQXY2W5yyNCLuVI,Coleccionista de Canciones,Camila,twostage,
 64004K6OpNt3gI3LtXYC7n,Terlalu Lama,Vierra,3,107UcGiqICT0mWhzvDCZMK,Un Beso Menos,ELENA ROSE|Morat,singlestage,
@@ -3678,7 +3658,7 @@ query_id,query_name,query_artist,rec_rank,rec_id,rec_name,rec_artist,model,relev
 32Gf5A7Hr8RdgggXG0Fdks,"Have You Ever Really Loved A Woman? - From ""Don Juan DeMarco"" Soundtrack",Bryan Adams,8,4ePs7pCU6Jc82Vp8xwVo6g,Tapi Tahukah Kamu?,Dygta|Kamasean,singlestage,
 32Gf5A7Hr8RdgggXG0Fdks,"Have You Ever Really Loved A Woman? - From ""Don Juan DeMarco"" Soundtrack",Bryan Adams,1,31er9IGsfFbwqy1pH4aiTP,I Have Nothing,Whitney Houston,twostage,
 32Gf5A7Hr8RdgggXG0Fdks,"Have You Ever Really Loved A Woman? - From ""Don Juan DeMarco"" Soundtrack",Bryan Adams,5,0fC6Szw2CX8XZYsydOLmVC,¡Ay Amor!,Ana Gabriel,twostage,
-32Gf5A7Hr8RdgggXG0Fdks,"Have You Ever Really Loved A Woman? - From ""Don Juan DeMarco"" Soundtrack",Bryan Adams,7,1GZnoLPpR9p2CwclsZnOXD,'Cause You Have To,LANY,singlestage,
+32Gf5A7Hr8RdgggXG0Fdks,"Have You Ever Really Loved A Woman? - From ""Don Juan DeMarco"" Soundtrack",Bryan Adams,7,1GZnoLPpR9p2CwclsZnOXD,Cause You Have To,LANY,singlestage,
 3uliGwmB52ZA7brgpZMzyH,Love Is A Losing Game,Amy Winehouse,1,6CxvpsqUxUD5xSrYCA8JHr,Como Fui A Enamorarme De Ti,Los Bukis,singlestage,
 3uliGwmB52ZA7brgpZMzyH,Love Is A Losing Game,Amy Winehouse,8,0SW6NfA6MTCC6OWNt6SAkV,Dinosaur,"Hank Williams, Jr.",twostage,
 3uliGwmB52ZA7brgpZMzyH,Love Is A Losing Game,Amy Winehouse,6,7IL8PSVwLOJxqYne6azxQv,Pretty Boy,The Neighbourhood,twostage,
@@ -3999,3 +3979,23 @@ query_id,query_name,query_artist,rec_rank,rec_id,rec_name,rec_artist,model,relev
 2tWioTW2rs0CXf1dTXlRrX,I’m Not That Girl,Cynthia Erivo,1,6TvxPS4fj4LUdjw2es4g21,Slipping Through My Fingers,ABBA,twostage,
 2tWioTW2rs0CXf1dTXlRrX,I’m Not That Girl,Cynthia Erivo,5,6CcJMwBtXByIz4zQLzFkKc,i love you,Billie Eilish,twostage,
 2tWioTW2rs0CXf1dTXlRrX,I’m Not That Girl,Cynthia Erivo,7,6TvxPS4fj4LUdjw2es4g21,Slipping Through My Fingers,ABBA,singlestage,
+6Qyc6fS4DsZjB2mRW9DsQs,Iris,The Goo Goo Dolls,1,7b3k8I1fncAzbk9PHnLkbX,Luna - En Vivo,Zoé,singlestage,
+6Qyc6fS4DsZjB2mRW9DsQs,Iris,The Goo Goo Dolls,2,15AbuFJdFrbINydSMSqVhV,Aléjate de Mí,Camila,singlestage,
+6Qyc6fS4DsZjB2mRW9DsQs,Iris,The Goo Goo Dolls,3,6kdCN6gTWLcLxmLXoUcwuI,Eres,Café Tacvba,singlestage,
+6Qyc6fS4DsZjB2mRW9DsQs,Iris,The Goo Goo Dolls,4,2RlpOjMTH17Gf0F0AM40Lw,Kör Sevdam,Zeynep Bastık,singlestage,
+6Qyc6fS4DsZjB2mRW9DsQs,Iris,The Goo Goo Dolls,5,3UygY7qW2cvG9Llkay6i1i,Going Under,Evanescence,singlestage,
+6Qyc6fS4DsZjB2mRW9DsQs,Iris,The Goo Goo Dolls,6,3yV2c3cYhkAwSsxAq6nRiv,Mann Mera,Gajendra Verma,singlestage,
+6Qyc6fS4DsZjB2mRW9DsQs,Iris,The Goo Goo Dolls,7,6lSr3iZTC144PKhvbPFzMp,Blurry,Puddle Of Mudd,singlestage,
+6Qyc6fS4DsZjB2mRW9DsQs,Iris,The Goo Goo Dolls,8,559mLg44MrcA7JzYGbpXfL,Vielleicht Vielleicht,MilleniumKid|JBS,singlestage,
+6Qyc6fS4DsZjB2mRW9DsQs,Iris,The Goo Goo Dolls,9,2JLdXUhCP7JPHBVccphHId,Jika Cinta Dia,Geisha,singlestage,
+6Qyc6fS4DsZjB2mRW9DsQs,Iris,The Goo Goo Dolls,10,34hM4PLlhyBysgL50IWdHf,Y Tú Te Vas,Chayanne,singlestage,
+6Qyc6fS4DsZjB2mRW9DsQs,Iris,The Goo Goo Dolls,1,7txxAtOMwLLnQTpKeBL6bp,Mother,Danzig,twostage,
+6Qyc6fS4DsZjB2mRW9DsQs,Iris,The Goo Goo Dolls,2,4IoYz8XqqdowINzfRrFnhi,You Found Me,The Fray,twostage,
+6Qyc6fS4DsZjB2mRW9DsQs,Iris,The Goo Goo Dolls,3,7Ewz6bJ97vUqk5HdkvguFQ,Heaven,Bryan Adams,twostage,
+6Qyc6fS4DsZjB2mRW9DsQs,Iris,The Goo Goo Dolls,4,1dyTcli07c77mtQK3ahUZR,Just,Radiohead,twostage,
+6Qyc6fS4DsZjB2mRW9DsQs,Iris,The Goo Goo Dolls,5,5fVl28RgREvxVtGSf9OsbK,Meddle About,Chase Atlantic,twostage,
+6Qyc6fS4DsZjB2mRW9DsQs,Iris,The Goo Goo Dolls,6,4rJdaSwOCHLBhxdMsymeMw,Entre dos tierras,Heroes Del Silencio,twostage,
+6Qyc6fS4DsZjB2mRW9DsQs,Iris,The Goo Goo Dolls,7,31eQP55jRbczzhi1YCNynR,Bekleyenim,Aleyna Tilki,twostage,
+6Qyc6fS4DsZjB2mRW9DsQs,Iris,The Goo Goo Dolls,8,3UygY7qW2cvG9Llkay6i1i,Going Under,Evanescence,twostage,
+6Qyc6fS4DsZjB2mRW9DsQs,Iris,The Goo Goo Dolls,9,2bL2gyO6kBdLkNSkxXNh6x,Animals,Maroon 5,twostage,
+6Qyc6fS4DsZjB2mRW9DsQs,Iris,The Goo Goo Dolls,10,3QxKpdTB8ZSFn8MGeCCpsQ,Crazy,Aerosmith,twostage,
